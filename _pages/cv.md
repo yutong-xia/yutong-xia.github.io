@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in B.S. in Land Resource Management, Department of Public Administration, Huazhong Agricultural University (211), 2016
+* M.S. in Smart Cities and Urban Analytics, The Bartlett Centre for Advanced Spatial Analysis, University College London, 2020
 
-Work experience
+
+Research Experience
 ======
 * Summer 2015: Research Assistant
   * Github University
