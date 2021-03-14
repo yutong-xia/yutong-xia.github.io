@@ -14,8 +14,8 @@ I am a mster student at CASA, UCL, majoring in Smart Cities and Urban Analytics.
 
 ## Education
 ---------
-* B.S. in B.S. in Land Resource Management, Department of Public Administration, Huazhong Agricultural University (211), 2016
-* M.S. in Smart Cities and Urban Analytics, The Bartlett Centre for Advanced Spatial Analysis, University College London, 2020
+* B.S. in *Land Resource Management*, Department of Public Administration, Huazhong Agricultural University (211), 2016
+* M.S. in *Smart Cities and Urban Analytics*, The Bartlett Centre for Advanced Spatial Analysis, University College London, 2020
 
 ## Research Experience
 ---------
