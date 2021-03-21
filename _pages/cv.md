@@ -32,7 +32,7 @@ redirect_from:
   - Employed CASA model to calculate the direct impact or urban expansion on NPP and indirect impact of cultivated land protection system on NPP, based on Total radiation, NDVI and Temperature and water scale.
  
 ### Competition
-*  CUSP London Data Dive 2021 - Future Mobility in Cities (15-19th Mar. 2021)
+* CUSP London Data Dive 2021 - Future Mobility in Cities (15-19th Mar. 2021)
   - Team member
   - Analysing the potential for micro-mobility and e-bikes to transform urban mobility in UK cities. 
   - Responsible for using data exploration and random forest with Python, based on the data on shared cycling, weather and air quality in London in 2019, to analyse the influencing factors of bike usage.
