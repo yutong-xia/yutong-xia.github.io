@@ -49,7 +49,7 @@ redirect_from:
   - Captured building location data of Qianjiang in Google Earth
   - Modelled 3D buildings, roads and rivers of Qianjiang with Cesium
 
-* Huaxia Huanyu Survey and Evaluation Co., Ltd. Jul. 2019–Sept. 2019
+* Huaxia Huanyu Survey and Evaluation Co., Ltd. (Jul. 2019–Sept. 2019)
   - Permanent Basic Farmland Designation Staff (Intern)
   - Involved in municipal level demonstration and inspection works.
   - Decided basic farmland reserve area via remote sensing images and photos.
