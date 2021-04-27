@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a mster student at CASA, UCL, majoring in Smart Cities and Urban Analytics. I am finding a PHD position.
+I am a mster student at CASA, UCL, majoring in Smart Cities and Urban Analytics. I am finding a PHD position and I am interested in spatial data analysis.
 
 
 
