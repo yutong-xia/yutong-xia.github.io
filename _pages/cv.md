@@ -16,7 +16,7 @@ redirect_from:
 ## Publication
 
 ## Skills
-* _Technical_: QGIS (expert),CAD, ENVI, Cesium, SAS, SQL, LaTeX, HTML.
+* _Technical_: QGIS (expert), Cesium, SAS, SQL, LaTeX, HTML.
   - Python (numpy, pandas, scikit-learn, matplotlib, Geopandas, networkx)
   - R (tidyverse, ggplot2)
 * _Spatial Analysis_: GWR, Network Analysis.
@@ -24,6 +24,18 @@ redirect_from:
 
 ## Research and Competition Experience
 ### Research
+
+* MS Dissertation: A Random Effect Bayesian Neural Networks (RE-BNNs) for Choice Analysis: Predicting Travel ModeChoice Across Multiple Cities (May. 2021-Present)
+  - Mentor: Dr. Huanfa Chen 
+  - Combining random effects models and Bayesian Neural Networks, we developed a new model for travel mode choice prediction across multiple cities. Via interpreting the model, the travel behavior in different cities can be compared directly.
+
+* BS Dissertation: The Impact of Traffic on Equality of Urban Healthcare Service Accessibility (May. 2020)
+  - Mentor: Prof. Chengchao Zuo
+  - We evaluated the dynamic accessibility to healthcare service based on WATT and G2SFCA method at 24 time points throughtout a day. Then we explored the impact of traffic conditions on equality from spatial and temporal perspectives based on the variation of the Gini Coefficient. Last, we identify the equality of healthcare service accessibility in a real urban environment by comparing the differences in accessibility among age groups.
+  - We found that traffic conditions change the accessibility by extending travel time and reducing the potential of obtaining healthcare services during peak hours. Although the city centre has better accesse to healthcare services, it is more susceptible to traffic conditions than suburban area, which mitigates the spatial inequality in Wuhan by around 20%.
+  - We also found that the impacts of traffic on the equality across age groups to access the healthcare services is much less significant than that on the equality across spaces
+
+
 * Impact of Coupling Effect of Urban Expansion and Cultivated Land Protection on Ecosystem NPP (Jan. 2018–May. 2019)
   - Research Member
   - Mentor: Prof. Xinli Ke
