@@ -16,10 +16,10 @@ redirect_from:
 ## Publication
 
 ## Skills
-* _Technical_: QGIS (expert), Cesium, SAS, SQL, LaTeX, HTML.
+* _Technical_: QGIS, Cesium, SAS, SQL, LaTeX, HTML.
   - Python (numpy, pandas, scikit-learn, matplotlib, Geopandas, networkx)
   - R (tidyverse, ggplot2)
-* _Spatial Analysis_: GWR, Network Analysis.
+* _Spatial Analysis_: GWR, Network Analysis, Accessibility.
 * _Machine Learning_: Classification, Regression, Clustering, Neural Networks.
 
 ## Research and Competition Experience
