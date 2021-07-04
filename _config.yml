@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "YUONG XIA"
+title                    : "YUTONG XIA"
 title_separator          : "-"
 name                     : &name "Yutong Xia"
 description              : &description " "
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         :https://www.linkedin.com/in/yutong-xia
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
