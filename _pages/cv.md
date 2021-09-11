@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+## Contact Information
+
+Email:xiayutong618@gmail.com
+
 ## Education
 * M.S. in *Smart Cities and Urban Analytics*, The Bartlett Centre for Advanced Spatial Analysis (CASA), University College London (UCL), 2020
 * B.S. in *Land Resource Management*, College of Public Administration, Huazhong Agricultural University (HZAU), 2016
