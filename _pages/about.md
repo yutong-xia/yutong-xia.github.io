@@ -34,4 +34,4 @@ I am a master student at CASA, UCL, majoring in Smart Cities and Urban Analytics
   - Mentor: Prof. Xinli Ke
   - Responsible for land-use change analysis with ArcGIS and NPP calculation.
   - Processed Year 2000 and 2010 LUCC data of Hubei Province, obtained LUCC data of one-time occupation of cultivated land and ecological land by urban expansion and the secondary occupation of ecological land by cultivated land protection policy.
-  - Employed CASA model to calculate the direct impact or urban expansion on NPP and indirect impact of cultivated land protection system on NPP, based on Total radiation, NDVI and Temperature and water scale.
+  - Employed Carnegie-Ames-Stanford Approach to calculate the direct impact or urban expansion on NPP and indirect impact of cultivated land protection system on NPP, based on Total radiation, NDVI and Temperature and water scale.
