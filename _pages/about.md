@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a master student at CASA, UCL, majoring in Smart Cities and Urban Analytics. I am finding a PhD position and I am interested in spatial data analysis, urban mobility modelling and travel behavior analysis.
+Hi! I am a master student at CASA, UCL, majoring in Smart Cities and Urban Analytics. I am finding a PhD position and I am interested in spatial data analysis, urban mobility modelling and travel behavior analysis.
 
 
 
