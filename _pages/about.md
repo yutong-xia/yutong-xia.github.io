@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Xia Yutong, a Ph.D. student at [NUS Graduate School](https://nusgs.nus.edu.sg/).
+I am Xia Yutong, a Ph.D. student in Data Science at [NUS Graduate School](https://nusgs.nus.edu.sg/).
 
 I obtained my master's degree in Smart Cities and Urban Analytics from [The Bartlett Centre for Advanced Spatial Analysis (CASA)](https://www.ucl.ac.uk/bartlett/casa), University College London in Dec. 2021. Before that, I obtained my bachelor degree in Land Resource Management from College of Public Administration, Huazhong Agricultural University in Jun. 2020. I am interested in urban data analysis.
 
