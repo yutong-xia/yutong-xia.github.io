@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "YUTONG XIA"
 title_separator          : "-"
 name                     : &name "Yutong Xia"
-description              : &description " "
+description              : &description "PhD student @ NUS"
 url                      : https://yutong-xia.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yutong-xia/yutong-xia.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yutong Xia （夏宇彤）"
   avatar           : "avatar.jpg"
-  bio              : "Ph.D. student at NGS, NUS"
+  bio              : "Ph.D. student @ NUS"
   location         : "Singapore"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -107,7 +107,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  steam            : 414784280
   tumblr           :
   twitter          : "xiayutong618"
   vine             :
