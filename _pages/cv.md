@@ -11,7 +11,7 @@ redirect_from:
 
 ## Contact Information
 
-Email:xiayutong618@gmail.com
+Email: xiayutong618@gmail.com, yutong.xia@u.nus.edu
 
 ## Education
 * Ph.D. in *Data Science*, NUS Graduate School (NGS), National University of Singapore (NUS), 2022-Present
