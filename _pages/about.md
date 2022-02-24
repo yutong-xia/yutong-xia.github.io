@@ -9,7 +9,7 @@ redirect_from:
 ---
 Hi! I am Xia Yutong, a Ph.D. student in Data Science at [NUS Graduate School (NUSGS)](https://nusgs.nus.edu.sg/) & [Institute of Data Science (IDS)](https://ids.nus.edu.sg/), National University of Singapore. I obtained my master's degree in Smart Cities and Urban Analytics from [the Bartlett Centre for Advanced Spatial Analysis (CASA)](https://www.ucl.ac.uk/bartlett/casa), University College London, with a distinction in Dec. 2021. Before that, I obtained my bachelor degree in Land Resource Management from [the College of Public Administration](https://ggxy.hzau.edu.cn/), Huazhong Agricultural University with the title of Outstanding Graduates in Jun. 2020. I am interested in urban data analysis and urban mobility modelling. You can reach me by email: yutong.xia@u.nus.edu. 
 
-More information about me can be found in my [CV](https://yutong-xia.github.io/files/CV__Yutong.pdf).
+More information about me can be found in my [CV](https://yutong-xia.github.io/files/CV_Yutong.pdf).
 
 
 
@@ -17,7 +17,7 @@ More information about me can be found in my [CV](https://yutong-xia.github.io/f
 
 **[2022.01]** I started my Ph.D. candidature at National University of Singapore.
 
-**[2021.12]** I graduated from University College London and obtained my master degree with a distinction.
+**[2021.12]** I graduated from University College London and obtained my master's degree with a distinction.
 
 
 
