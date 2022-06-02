@@ -24,7 +24,8 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 
 **[2021.12]** I graduated from University College London and obtained my master's degree with a distinction.
 
+-------------
 
 <p align="center">
-<a href='https://clustrmaps.com/site/1boq7'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=229QqCMYXHc0RAJPA6ck5Qokj48BzUnIrPIBz9HA1Ic&co=fed270'/></a>
+<a href='https://clustrmaps.com/site/1boq7'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=c9b8ff&w=450&t=tt&d=229QqCMYXHc0RAJPA6ck5Qokj48BzUnIrPIBz9HA1Ic&co=ffffff&ct=808080'/></a>
 </p>
