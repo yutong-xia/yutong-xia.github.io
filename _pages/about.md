@@ -20,7 +20,7 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 
 ## News
 
-**[14-08-2022]** One paper about traffic impact on accessibility euqality was accepted by *Sustainable Cities and Society*.
+**[14-08-2022]** One paper about the traffic impact on accessibility equality was accepted by *Sustainable Cities and Society*.
 
 **[10-01-2022]** I started my Ph.D. candidature at National University of Singapore.
 
