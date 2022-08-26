@@ -23,6 +23,7 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 **[26-08-2022]** One paper about Travel Mode Choice Prediction [RE-BNN] was accepted by *Travel Behaviour and Society*.
 <!-- 
 **[14-08-2022]** One paper about [the traffic impact on accessibility equality](https://doi.org/10.1016/j.scs.2022.104130) was accepted by *Sustainable Cities and Society*. -->
+
 **[14-08-2022]** One paper about Accessibility Equality was accepted by *Sustainable Cities and Society*.
 
 **[10-01-2022]** I started my Ph.D. candidature at National University of Singapore.
