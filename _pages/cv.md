@@ -20,7 +20,7 @@ Email: xiayutong618@gmail.com, yutong.xia@u.nus.edu
 * B.A. in *English*, School of Foreign Languages, Huazhong University of Science and Technology (HUST), 2018-2020
 
 
-## Publication
+<!-- ## Publication
 
 
 ## Skills
@@ -81,4 +81,4 @@ Email: xiayutong618@gmail.com, yutong.xia@u.nus.edu
 
 ## Language
 - Chinese
-- English (IELTS:7)
+- English (IELTS:7) -->
