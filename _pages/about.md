@@ -18,10 +18,13 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 
 - Urban computing
 - Spatio-temporal data mining
-- Neural ODE/PDE
+<!-- - Neural ODE/PDE -->
+- Multivariate Time series
 
 
 ## News
+
+**[19-11-2022]** One paper about Air Quality Forecasting was accepted by *AAAI'23*.
 
 **[26-08-2022]** One paper about Travel Mode Choice Prediction (RE-BNN) was accepted by *Travel Behaviour and Society*.
 
