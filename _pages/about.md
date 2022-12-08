@@ -26,10 +26,10 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 
 **[Nov. 2022]** One paper about [large-scale air quality prediction using Transformers](https://arxiv.org/pdf/2211.15979.pdf) was accepted by *AAAI’23*. 
 
-**[Aug. 2022]** One paper about travel mode choice prediction (RE-BNN) was accepted by *Travel Behaviour and Society*.
+**[Aug. 2022]** One paper about [travel mode choice prediction (RE-BNN)](https://www.sciencedirect.com/science/article/pii/S2214367X22000989) was accepted by *Travel Behaviour and Society*.
 
 
-**[Aug. 2022]** One paper about accessibility equality was accepted by *Sustainable Cities and Society*.
+**[Aug. 2022]** One paper about [accessibility equality](https://www.sciencedirect.com/science/article/abs/pii/S2210670722004437) was accepted by *Sustainable Cities and Society*.
 
 **[Jan. 2022]** I started my Ph.D. candidature at National University of Singapore.
 
