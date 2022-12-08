@@ -24,7 +24,7 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 
 ## News
 
-**[Nov. 2022]** One paper about large-scale air quality prediction using Transformers was accepted by *AAAI’23*. [[PDF](https://arxiv.org/pdf/2211.15979.pdf)]
+**[Nov. 2022]** One paper about [large-scale air quality prediction using Transformers](https://arxiv.org/pdf/2211.15979.pdf) was accepted by *AAAI’23*. 
 
 **[Aug. 2022]** One paper about travel mode choice prediction (RE-BNN) was accepted by *Travel Behaviour and Society*.
 
@@ -35,6 +35,15 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 
 **[Dec. 2021]** I graduated from University College London and obtained my master's degree with a distinction.
 
+## Community Services
+
+### Reviewer
+  - WWW'23
+
+### External Reviewer
+  - ICLR’23, AAAI’23
+  - NeurIPS'22
+  
 -------------
 
 <p align="center">
