@@ -12,7 +12,9 @@ Hi! I am Xia Yutong, currently a first-year Ph.D. student in Data Science at [NU
 
 <!-- Before that, I obtained my bachelor degree from Huazhong Agricultural University (HZAU) with the title of Outstanding Graduates in Jun. 2020, advised by Prof. Chengchao Zuo.  -->
 
-You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https://yutong-xia.github.io/files/CV_Yutong.pdf).
+You can reach me by email: yutong.xia@u.nus.edu. 
+
+<!-- My CV can be found [here](https://yutong-xia.github.io/files/CV_Yutong.pdf). -->
 
 ## Research Interests
 
@@ -26,7 +28,7 @@ You can reach me by email: yutong.xia@u.nus.edu. My CV can be found [here](https
 
 **[Nov. 2022]** One paper about [large-scale air quality prediction using Transformers](https://arxiv.org/pdf/2211.15979.pdf) was accepted by *AAAI’23*. 
 
-**[Aug. 2022]** One paper about [travel mode choice prediction (RE-BNN)](https://www.sciencedirect.com/science/article/pii/S2214367X22000989) was accepted by *Travel Behaviour and Society*.
+**[Aug. 2022]** One paper about [travel mode choice prediction](https://www.sciencedirect.com/science/article/pii/S2214367X22000989) was accepted by *Travel Behaviour and Society*.
 
 
 **[Aug. 2022]** One paper about [accessibility equality](https://www.sciencedirect.com/science/article/abs/pii/S2210670722004437) was accepted by *Sustainable Cities and Society*.
