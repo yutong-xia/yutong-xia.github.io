@@ -18,6 +18,7 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## Research Interests
 
+- Urban data science
 - Urban computing
 - Spatio-temporal data mining
 <!-- - Neural ODE/PDE -->
@@ -39,12 +40,11 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## Community Services
 
-### Reviewer
+### Conference Reviewer
   - WWW'23
 
-### External Reviewer
-  - ICLR’23, AAAI’23
-  - NeurIPS'22
+### Conference External Reviewer
+  - ICLR’23, AAAI’23, NeurIPS'22
   
 -------------
 
