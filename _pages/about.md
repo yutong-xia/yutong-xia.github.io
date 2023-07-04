@@ -14,19 +14,17 @@ Hi! I am Xia Yutong, currently a second-year Ph.D. student in Data Science at [I
 
 You can reach me by email: yutong.xia@u.nus.edu. 
 
-<!-- My CV can be found [here](https://yutong-xia.github.io/files/CV_Yutong.pdf). -->
 
 ## Research Interests
 
 - Urban data science
 - Urban computing
 - Spatio-temporal data mining
-- Multivariate Time series
 
 
 ## News
 
-**[Jan. 2023]** I will attend *AAAI’23* at Washington DC in person. (It is my first time attending a conference!! XD)
+**[Jan. 2023]** I will attend *AAAI’23* at Washington DC in person ✈️. (It is my first time attending a conference!! XD)
 
 **[Nov. 2022]** One paper about [large-scale air quality prediction using Transformers](https://arxiv.org/pdf/2211.15979.pdf) was accepted by *AAAI’23* as an **oral** presentation.
 
@@ -41,10 +39,11 @@ You can reach me by email: yutong.xia@u.nus.edu.
 ## Community Services
 
 ### Conference Reviewer
-  - WWW'23
+  - 2023: WWW
 
 ### Conference External Reviewer
-  - IJCAI'23, ICLR’23, AAAI’23, NeurIPS'22
+  - 2023: ICLR, ICML, AAAI, IJCAI, ECML
+  - 2022: NeurIPS
   
 -------------
 
