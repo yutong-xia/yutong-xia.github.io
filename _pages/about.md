@@ -23,9 +23,11 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## News
 
+test
+
 **[Jan. 2023]** I will attend *AAAI’23* at Washington DC in person ✈️. (It is my first time attending a conference!! XD)
 
-**[Nov. 2022]** One paper about [large-scale air quality prediction using Transformers](https://arxiv.org/pdf/2211.15979.pdf) was accepted by *AAAI’23* as an **oral** presentation.
+**[Nov. 2022]** One paper about [large-scale air quality prediction using Transformers](https://arxiv.org/pdf/2211.15979.pdf) was accepted by *AAAI’23* as an oral presentation.
 
 **[Aug. 2022]** One paper about [travel mode choice prediction](https://www.sciencedirect.com/science/article/pii/S2214367X22000989) was accepted by *Travel Behaviour and Society*.
 
