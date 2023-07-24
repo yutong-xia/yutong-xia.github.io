@@ -23,7 +23,6 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## News
 
-test
 
 **[Jan. 2023]** I will attend *AAAI’23* at Washington DC in person ✈️. (It is my first time attending a conference!! XD)
 
