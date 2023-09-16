@@ -11,7 +11,7 @@ paperurl: 'https://ojs.aaai.org/index.php/AAAI/article/view/26676'
 
 In this study, we present a novel Transformer architecture termed AirFormer to collectively predict nationwide air quality in China over the next 72 hours, with an unprecedented fine spatial granularity covering thousands of locations.
 
-[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26676),[Code](https://github.com/yoshall/AirFormer)
+[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26676), [Code](https://github.com/yoshall/AirFormer)
 
 Citation: 
 ```

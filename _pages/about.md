@@ -23,6 +23,9 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## News
 
+**[Sept. 2023]** I was honored to receive the **NUSGS Research Incentive Award**!
+
+**[Sept. 2023]** One paper about [spatio-temporal diffusion model](https://arxiv.org/pdf/2301.13629.pdf) was accepted by *SIGSPATIAL’23*.
 
 **[Jan. 2023]** I will attend *AAAI’23* at Washington DC in person ✈️. (It is my first time attending a conference!! XD)
 
@@ -39,10 +42,11 @@ You can reach me by email: yutong.xia@u.nus.edu.
 ## Community Services
 
 ### Conference Reviewer
-  - 2023: WWW
+  - 2023: WWW, ECML, SIGSPATIAL
 
 ### Conference External Reviewer
-  - 2023: ICLR, ICML, AAAI, IJCAI, ECML
+  - 2024: AAAI
+  - 2023: ICLR, ICML, AAAI, IJCAI, NeurIPS
   - 2022: NeurIPS
   
 -------------
