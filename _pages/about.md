@@ -23,7 +23,7 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## News
 
-**[Sept. 2023]** I was honored to receive the **NUSGS Research Incentive Award**!
+**[Sept. 2023]** I was honored to receive the NUSGS Research Incentive Award!
 
 **[Sept. 2023]** One paper about [spatio-temporal diffusion model](https://arxiv.org/pdf/2301.13629.pdf) was accepted by *SIGSPATIAL’23*.
 
