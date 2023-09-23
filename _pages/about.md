@@ -23,6 +23,10 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## News
 
+**[Sept. 2023]** One paper about spatio-temporal causal inference was accepted by *NeurIPS’23* 
+
+**[Sept. 2023]** One [large-scale traffic benchmark](https://github.com/liuxu77/LargeST) was accecpted by *NeurIPS’23 DB Track*.
+
 **[Sept. 2023]** I was honored to receive the NUSGS Research Incentive Award!
 
 **[Sept. 2023]** One paper about [spatio-temporal diffusion model](https://arxiv.org/pdf/2301.13629.pdf) was accepted by *SIGSPATIAL’23*.
