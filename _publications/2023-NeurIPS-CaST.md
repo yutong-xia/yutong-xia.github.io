@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2023-NeurIPS-CaST
 excerpt: 'In this study, through a causal lens, we propose a novel framework called CaST to tackle temporal OoD and dynamic spatial causation in STG forecasting.'
 date: 2023-09-26
-venue: 'AAAI-23'
+venue: 'NeurIPS-23'
 paperurl: 'https://arxiv.org/pdf/2309.13378.pdf'
 # citation: 'Liang, Y., Xia, Y., Ke, S., Wang, Y., Wen, Q., Zhang, J., ... & Zimmermann, R. (2023, June). Airformer: Predicting nationwide air quality in china with transformers. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 37, No. 12, pp. 14329-14337).'
 ---
