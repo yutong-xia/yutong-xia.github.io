@@ -1,7 +1,7 @@
 ---
 title: "Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment"
 collection: publications
-permalink: /publication/2023-NeurIPS-CaST
+permalink: /publications/2023-NeurIPS-CaST
 excerpt: 'In this study, through a causal lens, we propose a novel framework called CaST to tackle temporal OoD and dynamic spatial causation in STG forecasting.'
 date: 2023-09-26
 venue: 'NeurIPS-23'

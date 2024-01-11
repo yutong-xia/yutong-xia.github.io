@@ -1,7 +1,7 @@
 ---
 title: "AirFormer: Predicting Nationwide Air Quality in China with Transformers"
 collection: publications
-permalink: /publication/2023-AAAI-AirFormer
+permalink: /publications/2023-AAAI-AirFormer
 excerpt: 'In this study, we present a novel Transformer architecture termed AirFormer to collectively predict nationwide air quality in China over the next 72 hours, with an unprecedented fine spatial granularity covering thousands of locations.'
 date: 2022-11-29
 venue: 'AAAI-23'

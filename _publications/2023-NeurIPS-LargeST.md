@@ -1,7 +1,7 @@
 ---
 title: "LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting"
 collection: publications
-permalink: /publication/2023-NeurIPS-LargeST
+permalink: /publications/2023-NeurIPS-LargeST
 excerpt: 'We introduce the LargeST benchmark dataset, which encompasses a total number of 8,600 sensors with a 5-year time coverage and includes comprehensive metadata.'
 date: 2023-09-26
 venue: 'NeurIPS-23'
