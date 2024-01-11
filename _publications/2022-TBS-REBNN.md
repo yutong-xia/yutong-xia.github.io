@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/2022-TBS-REBNN
 excerpt: 'We propose a new deep learning architecture Random Effect Bayesian Neural Network (RE-BNN) to predict the travel mode choice across multiple regions and reveal regional heterogeneity.'
 date: 2023-01-01
-venue: 'TBS-22'
+venue: 'Travel Behaviour and Society, 2023'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2214367X22000989'
 # citation: 'Liang, Y., Xia, Y., Ke, S., Wang, Y., Wen, Q., Zhang, J., ... & Zimmermann, R. (2023, June). Airformer: Predicting nationwide air quality in china with transformers. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 37, No. 12, pp. 14329-14337).'
 ---

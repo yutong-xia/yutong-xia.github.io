@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/2022-SCS-Accessibility
 excerpt: 'Taking Wuhan, China, as the study area, this paper measured the hourly accessibility to healthcare by using two methods: Gaussian Two-Step Floating Catchment Area and Weighted Average Travel Time. Then, it investigated how traffic conditions affected the equality of healthcare services among places or demographic groups at different times.'
 date: 2022-11-01
-venue: 'SCS-22'
+venue: 'Sustainable Cities and Society, 2022'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S2210670722004437'
 # citation: 'Liang, Y., Xia, Y., Ke, S., Wang, Y., Wen, Q., Zhang, J., ... & Zimmermann, R. (2023, June). Airformer: Predicting nationwide air quality in china with transformers. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 37, No. 12, pp. 14329-14337).'
 ---
