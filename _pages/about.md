@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am Xia Yutong, currently a second-year Ph.D. student in Data Science at [Institute of Data Science (IDS)](https://ids.nus.edu.sg/), National University of Singapore (NUS), supervised by Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/~rogerz/). Before that, I obtained my master's degree in Smart Cities and Urban Analytics from [the Bartlett Centre for Advanced Spatial Analysis (CASA)](https://www.ucl.ac.uk/bartlett/casa), University College London (UCL), with a distinction in Dec. 2021,  supervised by Dr [Huanfa Chen](https://huanfachen.github.io/about.html). 
+Hi! I am Xia Yutong, currently a third-year Ph.D. student in Data Science at [Institute of Data Science (IDS)](https://ids.nus.edu.sg/), National University of Singapore (NUS), supervised by Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/~rogerz/). Before that, I obtained my master's degree in Smart Cities and Urban Analytics from [the Bartlett Centre for Advanced Spatial Analysis (CASA)](https://www.ucl.ac.uk/bartlett/casa), University College London (UCL), with a distinction in Dec. 2021,  supervised by Dr [Huanfa Chen](https://huanfachen.github.io/about.html). 
 
 
 You can reach me by email: yutong.xia@u.nus.edu. 
@@ -23,7 +23,11 @@ You can reach me by email: yutong.xia@u.nus.edu.
 
 ## News
 
-**[Jan. 2024]** I was honored to receive the **Research Achievement Award**. Thanks Prof. Roger for the supports!!
+**[May. 2024]** One paper about [large-scale delivery dataset](https://cainiaotechai.github.io/LaDe-website/) was accecpted by *KDD’24 ADS track*.
+
+**[May. 2024]** Two papers about [Singapore parking dataset](https://arxiv.org/pdf/2405.18910) and spatio-temporal field neural network were accecpted by *IJCAI’24 AI for Social Good track*.
+
+**[Jan. 2024]** I was honored to receive the **NUS SoC Research Achievement Award**. Thanks Prof. Roger for the supports!!
 
 **[Sept. 2023]** One paper about [spatio-temporal causal inference](https://arxiv.org/pdf/2309.13378.pdf) was accepted by *NeurIPS’23*.
 
