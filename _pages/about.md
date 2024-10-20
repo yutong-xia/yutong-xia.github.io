@@ -11,7 +11,7 @@ redirect_from:
 Hi! I am Xia Yutong, currently a third-year Ph.D. student in Data Science at [Institute of Data Science (IDS)](https://ids.nus.edu.sg/), National University of Singapore (NUS), supervised by Prof. [Roger Zimmermann](https://www.comp.nus.edu.sg/~rogerz/). Before that, I obtained my master's degree in Smart Cities and Urban Analytics from [the Bartlett Centre for Advanced Spatial Analysis (CASA)](https://www.ucl.ac.uk/bartlett/casa), University College London (UCL), with a distinction in Dec. 2021,  supervised by Dr [Huanfa Chen](https://huanfachen.github.io/about.html). 
 
 
-You can reach me by email: yutong.xia@u.nus.edu. 
+You can reach me by email: yutong.x@outlook.com 
 
 
 ## Research Interests
@@ -19,9 +19,12 @@ You can reach me by email: yutong.xia@u.nus.edu.
 - Urban data science
 - Urban computing
 - Spatio-temporal data mining
+- Time series
 
 
 ## News
+
+**[Oct. 2024]** I started my visiting at [MIT JTL Transit Lab](https://mobility.mit.edu/), supervised by Prof. [Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao).
 
 **[May. 2024]** One paper about [large-scale delivery dataset](https://cainiaotechai.github.io/LaDe-website/) was accecpted by *KDD’24 ADS track*.
 
