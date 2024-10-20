@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/2024-KDD-LaDe
 excerpt: 'In this paper, we introduce LaDe, the first publicly available last-mile delivery dataset with millions of packages from the industry.'
 date: 2024-08-20
-venue: 'KDD, 2024'
+venue: 'KDD-24'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3637528.3671548'
 
 ---

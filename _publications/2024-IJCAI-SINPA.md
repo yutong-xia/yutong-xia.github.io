@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/2024-IJCAI-SINPA
 excerpt: 'We crawl, process, and release the SINPA dataset, a large-scale parking availability dataset incorporating cross-domain data in Singapore. We then propose a novel deep-learning framework DeepPA to collectively forecast future PA readings across Singapore.'
 date: 2024-08-01
-venue: 'IJCAI, 2024'
+venue: 'IJCAI-24'
 paperurl: 'https://www.ijcai.org/proceedings/2024/0836.pdf'
 
 ---
