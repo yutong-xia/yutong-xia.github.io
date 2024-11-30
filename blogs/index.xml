@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Yutong</title>
+    <link>https://hugo-profile.netlify.app/blogs/</link>
+    <description>Recent content in Blogs on Yutong</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hugo-profile.netlify.app/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weak Theory, Stonge Theory, and Urban Planning</title>
+      <link>https://hugo-profile.netlify.app/blogs/weak_theory/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/blogs/weak_theory/</guid>
+      <description>&lt;!-- # Weak Theory, Stonge Theory, and Urban Planning --&gt;&#xA;&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: This blog is written based on my own understanding of concepts discussed in &lt;a href=&#34;https://modernismmodernity.org/articles/weak-theory-weak-modernism&#34;&gt;&lt;em&gt;Weak Theory, Weak Modernism&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://journals.sagepub.com/doi/abs/10.1177/14730952231162397&#34;&gt;&lt;em&gt;Thinking Sideways: A Plea for “Weak Theory&amp;quot;&lt;/em&gt;&lt;/a&gt;. As a newcomer to these topics, this blog is more like a self learning note summarizing key concepts. The original discussions are more comprehensive, offering greater depth than what can be captured here. If you’re interested in exploring these ideas further, I highly recommend reading the original papers :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>📚 Causality meets ST Data - Awesome Papers</title>
+      <link>https://hugo-profile.netlify.app/blogs/causalst_paper/</link>
+      <pubDate>Sat, 23 Nov 2024 22:53:58 +0530</pubDate>
+      <guid>https://hugo-profile.netlify.app/blogs/causalst_paper/</guid>
+      <description>&lt;!-- # Awesome Cuasality ST Papers --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/sindresorhus/awesome&#34;&gt;&lt;img src=&#34;https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg&#34; alt=&#34;Awesome&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[The &lt;strong&gt;Github repo&lt;/strong&gt; can be found &lt;a href=&#34;https://github.com/yutong-xia/CausalST_Papers&#34;&gt;here&lt;/a&gt;!]&lt;/p&gt;&#xA;&lt;p&gt;This is a curated collection of papers on the intersection of causality (including causal inference and causal discovery), spatio-temporal data (including spatio-temporal graph/series data, grid data, and trajectory data), and machine learning. For clarity, irregular grid data is categorized as spatio-temporal graph data here. In addition, some papers on multivariate time series, which share a similar data structure with spatio-temporal series, are also included.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

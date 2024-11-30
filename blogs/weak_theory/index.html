@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/gv.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJFXWQHD8M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-BJFXWQHD8M');
+        }
+      </script>
+<meta property="og:url" content="https://hugo-profile.netlify.app/blogs/weak_theory/">
+  <meta property="og:site_name" content="Yutong">
+  <meta property="og:title" content="Weak Theory, Stonge Theory, and Urban Planning">
+  <meta property="og:description" content="Note: This blog is written based on my own understanding of concepts discussed in Weak Theory, Weak Modernism and Thinking Sideways: A Plea for “Weak Theory&#34;. As a newcomer to these topics, this blog is more like a self learning note summarizing key concepts. The original discussions are more comprehensive, offering greater depth than what can be captured here. If you’re interested in exploring these ideas further, I highly recommend reading the original papers :)">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2024-11-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-28T00:00:00+00:00">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Weak Theory, Stonge Theory, and Urban Planning">
+  <meta name="twitter:description" content="Note: This blog is written based on my own understanding of concepts discussed in Weak Theory, Weak Modernism and Thinking Sideways: A Plea for “Weak Theory&#34;. As a newcomer to these topics, this blog is more like a self learning note summarizing key concepts. The original discussions are more comprehensive, offering greater depth than what can be captured here. If you’re interested in exploring these ideas further, I highly recommend reading the original papers :)">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #117554;
+        --text-link-color: #117554;
+        --background-color: #FBF8EF;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #117554;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Weak Theory, Stonge Theory, and Urban Planning | Yutong
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/gv.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Yutong
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            Community Services
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Professional Experience
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="gallery.md" title="Gallery">
+                            
+                            Gallery
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Weak Theory, Stonge Theory, and Urban Planning</h1>
+            <div class="text-center">
+              
+                Yutong
+                <small>|</small>
+              
+              Nov 28, 2024
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <!-- # Weak Theory, Stonge Theory, and Urban Planning -->
+<p><em>Note</em>: This blog is written based on my own understanding of concepts discussed in <a href="https://modernismmodernity.org/articles/weak-theory-weak-modernism"><em>Weak Theory, Weak Modernism</em></a> and <a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397"><em>Thinking Sideways: A Plea for “Weak Theory&quot;</em></a>. As a newcomer to these topics, this blog is more like a self learning note summarizing key concepts. The original discussions are more comprehensive, offering greater depth than what can be captured here. If you’re interested in exploring these ideas further, I highly recommend reading the original papers :)</p>
+<hr>
+<p>Before we begin, let’s revisit a common assumption in our life: <em>&ldquo;strong is good, weak is bad”</em>. This stems from the <em>dynamotropic</em> nature of the world we live in—a world that always celebrates strength, dominance, and grandeur as virtues <a href="https://modernismmodernity.org/articles/weak-theory-weak-modernism">(Saint-Amour, 2018)</a>. However, in the topic we will talk about today, “weak” and “strong” are not value judgments but descriptive terms for different approaches. <strong>Neither is inherently superior or inferior</strong>; they simply serve different purposes.</p>
+<p>Now, we are ready to begin to form an initial understanding of strong and weak theories. While <strong>strong theory</strong> pursues the brilliance of the sun—definitive answers and sweeping frameworks that claim to illuminate universal truths—<strong>weak theory</strong>  is more like the focused beam of a flashlight, illuminating the immediate and specific to provide clarity on what is directly in front of you <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781315630908-28/pragmatism-plan-making-charles-hoch">(Hoch, 2017)</a>.</p>
+<p>But what exactly is weak theory and why does it matter? How does it connect to urban planning? Let’s explore these concepts and connections together.</p>
+<h2 id="what-is-weak-theory">What is Weak Theory?</h2>
+<p>Weak theory doesn’t have a clear-cut or widely recognized definition (and if you tried searching for it, you probably noticed it doesn’t even have a Wikipedia page!). It’s described as a &ldquo;loose bundle of concepts used predominantly in an interdisciplinary body of writings&rdquo; (<a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397">Manouchehrifar, 2024</a>: 66). The idea of weak theory has been around for a long time, with roots in various branches of philosophy and social theory:</p>
+<blockquote>
+<p>&hellip; proponents of weak theory define their methodology as accounting for “near phenomena,” and their aim as seeking to know, but not necessarily knowing before their inquiry <a href="https://read.dukeupress.edu/books/book/636/chapter/128566/Paranoid-Reading-and-Reparative-Reading-or-You-re">(Sedgwick, 2003)</a>. Weak theory, so conceived, looks “just a little way ahead, behind, and to the sides” to appreciate unintended consequences and provisional practices <a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397">(Saint-Amour, 2018: 445)</a>. It considers a finite subset of site-specific problems and relationships as its object of inquiry to present what Louis Menand calls “a one-dot theory” of sideways movements <a href="https://www.newyorker.com/magazine/2015/03/30/thinking-sideways">(2015: 73)</a>. Theory, in this vein, operates “more like a flashlight than the sun” – to borrow Charles Hoch’s apt metaphor <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781315630908-28/pragmatism-plan-making-charles-hoch">(2017: 299)</a>. ( <a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397"><em>Thinking Sideways: A Plea for “Weak Theory&rdquo;</em></a>: 66)</p>
+</blockquote>
+<p>At its core, weak theory is typically descibed by its focus on the small-scale, specific, and often overlooked details. Its features include:</p>
+<ul>
+<li><strong>Provisional and Exploratory Goals</strong>: Rather than striving for universal truths or unshakable axioms, weak theory aims to scratch the surface of familiar phenomena to reveal hidden dynamics.</li>
+<li><strong>Context-Sensitive and Localized Focus</strong>: Weak theory thrives on exploring “near phenomena&quot;—those specific, localized, and often fleeting dynamics that shape our world.</li>
+<li><strong>Openness to Surprise</strong>: Unlike strong theory, which aims to minimize uncertainty, weak theory sees the potential for unexpected insights as its strength.</li>
+</ul>
+<p>Where strong theory often seeks to unify and decode vast arrays of phenomena under a single framework, weak theory focuses on understanding the localized contexts of what’s immediately observable. <strong>It is <em>descriptive</em>, not <em>prescriptive</em>—seeking to explain without asserting dominion over its subject.</strong></p>
+<blockquote>
+<p>&hellip; a  theory’s “strength” in a normative sense (its effectiveness, vitality, or explanatory power) is not commensurate with a theory’s “strength” in a descriptive sense (its breadth of reach, sureness of purpose, or generality of claims). Put differently, what is “weak” and yet effective about weak theory is its localized purview, limited claim, and openness to doubt and contingency, not its lack of rigor or generalizability. (<a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397"><em>Thinking Sideways: A Plea for “Weak Theory&quot;</em></a>: 67)</p>
+</blockquote>
+<h2 id="critiques-of-weak-theory">Critiques of Weak Theory</h2>
+<p>The evolution of weak theory and its critiques originals debates about the role of <em>&ldquo;theory&rdquo;</em> itself. From the &ldquo;theory wars&rdquo; of the late 20th century to contemporary discussions in political philosophy, weak theory has been both lauded for its adaptability and criticized for its perceived limitations.</p>
+<h3 id="context-of-critiques">Context of Critiques</h3>
+<p>The concept of &ldquo;theory&rdquo; itself came under scrutiny in the 1970s. Critics argued that theory—and especially grand or strong theories—had become a &ldquo;game of mastery,&rdquo; where theorists claimed a &ldquo;God’s eye view&rdquo; that sought to explain everything while often marginalizing alternative perspectives <a href="https://link.springer.com/article/10.1007/BF00161138">(Jay, 1996)</a>. This led to the emergence of <strong>anti-theoretical skepticism</strong> in the 1980s, with some critics arguing that &ldquo;the era of theory was over&rdquo;. Alternatives such as <em>practice</em>, <em>narrative</em>, and <em>lived experience</em> were proposed as more grounded and relevant than abstract theoretical paradigms.</p>
+<p>Weak theory emerged as a <strong>middle ground</strong> in this debate - rejecting both the totalizing tendencies of grand (strong) theory and the wholesale dismissal of the theory itself. Advocates of weak theory sought to:</p>
+<ul>
+<li><strong>Acknowledge Incompleteness</strong>: Weak theory accepts the inherent incompleteness of all theoretical endeavors and embraces this as a strength rather than a weakness.</li>
+<li><strong>Avoid Binary Thinking</strong>: Instead of framing the debate as &ldquo;theory vs. anti-theory,&rdquo; weak theory situates itself as a flexible, exploratory approach that values partiality and provisionality.</li>
+<li><strong>Reject Overreach</strong>: Weak theory avoids the arrogance of claiming universal truths while still valuing the insights that theoretical frameworks can provide.</li>
+</ul>
+<h3 id="key-critiques">Key Critiques</h3>
+<p>Despite its attempts to balance the tensions, weak theory is not without its critics:</p>
+<ul>
+<li><strong>Lack of Rigor</strong>:  Weak theory&rsquo;s openness to uncertainty and its limited scope can appear as a lack of depth or intellectual rigor <a href="https://modernismmodernity.org/forums/posts/responses-special-issue-weak-theory-part-i">(Murphet, 2019)</a>.</li>
+<li><strong>Risk of Becoming Dogmatic</strong>: Weak theory risks becoming a totalizing argument in itself, drifting toward the very dogmatism it aims to counter (<a href="https://psycnet.apa.org/record/1965-07714-000">Tomkins, 1963</a>; <a href="https://modernismmodernity.org/articles/weak-theory-weak-modernism">Saint-Amour, 2018</a>).</li>
+<li><strong>Quietism and Passivity</strong>: Weak theory’s refusal to offer definitive answers or bold frameworks may lead to accusations of passivity, anti-intellectualism, or ineffectiveness in addressing systemic issues (<a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=mox1ywiyhtgC&amp;oi=fnd&amp;pg=IA4&amp;dq=All+That+Is+Solid+Melts+into+Air:+The+Experience+of+Modernity.+New+York:+Simon+and+Schuster&amp;ots=QxXXGxalqS&amp;sig=Cc9e6DTOt7WjLsEne7xBFj9P3DQ#v=onepage&amp;q=All%20That%20Is%20Solid%20Melts%20into%20Air%3A%20The%20Experience%20of%20Modernity.%20New%20York%3A%20Simon%20and%20Schuster&amp;f=false">Berman, 1982</a>).</li>
+</ul>
+<h3 id="why-weak-theory-still-matters">Why Weak Theory still Matters?</h3>
+<p>Weak theory offers a compelling alternative to both the <em>dogmatism</em> of grand theory and the <em>nihilism</em> of anti-theoretical stances:</p>
+<ul>
+<li>It embraces <strong>uncertainty</strong>, addressing specific problems without overgeneralizing.</li>
+<li>By remaining open to <strong>unexpected insights</strong>, it complements strong theories rather than replacing them.</li>
+</ul>
+<p>Proponents argue that weak theory&rsquo;s acceptance of partiality and provisionality is not a flaw but a reflection of <strong>intellectual humility</strong>—an approach that opens doors to new possibilities and perspectives. It challenges us to think critically without the need for certainty.</p>
+<h2 id="weak-theory-meets-urban-planning">Weak Theory meets Urban Planning</h2>
+<p>What does weak theory have to do with urban planning? To explore this connection, let’s start by looking at the history of urban planning&rsquo;s evolution.</p>
+<h3 id="evolution-and-tensions-in-urban-planning">Evolution and Tensions in Urban Planning</h3>
+<p>Urban planning emerged in the late 19th century <strong>as a response to rapid industrialization and urban growth</strong>. From the late 19th to mid-20th centuries, these tensions revolved around <em>aesthetics</em>, <em>social reform</em>, <em>technical expertise</em>, and <em>political resistance</em>.</p>
+<h4 id="activism-vs-proceduralism">Activism vs. Proceduralism</h4>
+<ul>
+<li><strong>Benjamin Marsh</strong> (Activism):
+<ul>
+<li>Advocated for an activist role, emphasizing the need to address poverty and inequality directly. He criticized reliance on charity, arguing instead that “government must prevent what charity can only mitigate” (<a href="https://www.google.com/books/edition/An_Introduction_to_City_Planning/qtWiAAAAMAAJ?hl=en&amp;gbpv=0">1909</a>: 2).</li>
+<li>Though supporting the City Beautiful movement’s vision of the public interest, Marsh faulted it for focusing solely on aesthetics and neglecting social realities.</li>
+</ul>
+</li>
+<li><strong>Frederick Law Olmsted Jr.</strong> (Proceduralism):
+<ul>
+<li>Advocated a procedural and technical approach to planning, viewing it as a “technical art” of urban design. Olmsted&rsquo;s vision of planners as &ldquo;technically skilled artists&rdquo;, rather than social activists.</li>
+<li>This approach prioritized aesthetics and limited intervention (<a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=RHwAAAAAYAAJ&amp;oi=fnd&amp;pg=PA1&amp;dq=The+Improvement+of+Boulder,+Colorado:+Report+to+the+City+Improvement+Association.&amp;ots=ihieiBu5I7&amp;sig=7e6TKFnotBYLyQX5Qa7f7xKnn7w#v=onepage&amp;q=The%20Improvement%20of%20Boulder%2C%20Colorado%3A%20Report%20to%20the%20City%20Improvement%20Association.&amp;f=false">Olmsted, 1910</a>).</li>
+</ul>
+</li>
+</ul>
+<p>Ultimately <strong>prevailing over activism</strong>. However, <strong>it left pressing issues such as inequality and poverty unaddressed</strong>.</p>
+<h4 id="revival-of-activism">Revival of Activism</h4>
+<ul>
+<li><strong>Rexford Tugwell and New Deal Planners</strong>:<br>
+Tugwell, inspired by the Great Depression, envisioned planning as a “fourth branch of government” addressing issues at urban, regional, and national levels. He warned that resisting national planning risked revolutionary upheaval and called for a socially-oriented, theoretically solid approach (<a href="https://www.jstor.org/stable/1813950">1932</a>).</li>
+<li><strong>Criticism from Fredrich Hayek</strong>:<br>
+Hayek opposed centralized planning, arguing it stemmed from “the resentment of the frustrated specialist” and likening it to fanaticism (<a href="https://doi.org/10.4324/9781315728124">1944</a>). His critique reflected fears of excessive state control and intervention.</li>
+</ul>
+<h4 id="compromise-and-consolidation">Compromise and Consolidation</h4>
+<p>The debates between Marsh and Olmsted, as well as those between Tugwell and Hayek, shaped urban planning into a profession that balanced competing ideals  (<a href="https://www.jstor.org/stable/1181323">Hall, 2002</a>):</p>
+<ul>
+<li><strong>Comprehensive but not overly progressive</strong>: Planning aimed to address urban issues without radical reform.</li>
+<li><strong>Technical but not entirely apolitical</strong>: While focused on technical expertise, the field remained indirectly influenced by societal concerns.</li>
+<li><strong>Procedural but not overly bureaucratic</strong>: Planning processes became systematic and methodical without becoming excessively rigid.</li>
+</ul>
+<h3 id="weak-or-strong-planning-theory">Weak or Strong Planning Theory</h3>
+<p>Manouchehrifar regarded the emergence and evolution of urban planning as concurrent efforts to both strengthen and weaken the concept of planning itself. (<a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397">2024</a>: 74).</p>
+<ul>
+<li><strong>An academic turning point of urban planning</strong> (the late 1950s)
+<ul>
+<li>Architecture and urban design &ndash;&gt; Planning theory</li>
+<li>Gave rise to <strong>strong planning theories</strong>—philosophical frameworks that sought to ground planning in systematic, academically rigorous principles.</li>
+<li>Split the field into two groups:  <strong>Theorists</strong> (primarily in academia, who became preoccupied with theoretical constructs) and <strong>Practitioners</strong> (operating in local government offices, focused on the day-to-day realities of urban planning) (<a href="https://www.jstor.org/stable/1181323">Hall, 2002</a>: 386).</li>
+</ul>
+</li>
+<li><strong>A golden age for strong planning theories</strong> (the 1960s)
+<ul>
+<li>Rational Comprehensive Planning &amp; Synoptic Planning</li>
+<li>Systems Planning by Patrick Geddes</li>
+<li>The idea behind: the more technically robust and methodologically rigorous a theory, the better its outcomes.</li>
+</ul>
+</li>
+<li><strong>Critiques of strong planning theories</strong> (the mid-1960s)
+<ul>
+<li>Jane Jacobs’ <em>The Death and Life of Great American Cities</em>
+<ul>
+<li>Criticized top-down approaches for neglecting street life and local dynamics.</li>
+</ul>
+</li>
+<li>Political scientists&rsquo; critiques from the philosophical Right (<a href="https://www.jstor.org/stable/1598175">Meyerson and Banfield, 1955</a>; <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781351179522-7/goals-comprehensive-planning-alan-altschuler">Altshuler, 1965</a>)
+<ul>
+<li>Argued that planners don’t rationally analyze everything but &ldquo;muddle through&rdquo; with incremental changes (<a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781351179522-4/science-muddling-charles-lindblom">Lindblom , 1959</a>).</li>
+<li>Advocated for narrowing the scope of planning to address specific, emergent problems rather than pursuing grand, all-encompassing solutions.
+-   Call for “advocacy planning” (<a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780429261732-57/advocacy-pluralism-planning-paul-davidoff">Davidoff, 1965</a>), “flexible planning” (<a href="https://www.erudit.org/en/journals/ri/1967-v22-n2-ri2799/027781ar/abstract/">Solasse, 1967</a>) &ndash;&gt; &ldquo;soft planning&rdquo; (<a href="https://journals.sagepub.com/doi/full/10.1177/14730952221087389">Cavaco et al., 2022</a>).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Shifting towards pragmatism</strong> (1970s-1980s)
+<ul>
+<li>John Friedmann’s General Theory of Planning  (<a href="https://www.tandfonline.com/doi/abs/10.1080/01944366908977241">1969</a>, <a href="https://trid.trb.org/View/521224">1973</a>)
+<ul>
+<li>A general theory of planning encompassing social, political, and economic dimensions.</li>
+<li>Criticized by <a href="https://doi.org/10.2307/2009600">Hirschman (1970)</a> and <a href="https://link.springer.com/article/10.1007/BF01405729">Wildavsky (1973)</a> for being overly ambitious and abstract.</li>
+</ul>
+</li>
+<li>Critical Marxist perspectives (1970s)
+<ul>
+<li>Marxist scholars critiqued planning theories as tools of capitalist control, favoring the elite over the poor.</li>
+<li>Called for more socially conscious and equitable approaches.</li>
+</ul>
+</li>
+<li>Pragmatic turn (1980s)
+<ul>
+<li>John Forester (<a href="https://doi.org/10.1080/01944368008977043">1980</a>, <a href="https://doi.org/10.1080/01944368208976167">1982</a>) and Charles Hoch (<a href="https://doi.org/10.1080/01944368408976600">1984</a>) emphasized practice-based approaches over abstract theorizing.</li>
+<li>They advocated for observing how planners work in real-world contexts.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Current landscape of planning theory</strong> (2000s-Present)
+<ul>
+<li>Planning theory has largely abandoned the pursuit of grand generalizations, focusing instead on <strong>relational, practice-based approaches</strong> to social change. This shift highlights:
+<ul>
+<li>The importance of how <strong>citizens</strong> perceive complex concepts like justice and power.</li>
+<li>The need for <strong>planners</strong> to revise and adapt their strategies continuously based on specific contexts.</li>
+</ul>
+</li>
+<li>The field now includes diverse scholarship on storytelling, evidence-based planning, soft planning, and the theorization of planning practices (<a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397">Manouchehrifar (2024)</a>).</li>
+</ul>
+</li>
+</ul>
+<h2 id="takeaways">Takeaways</h2>
+<p>We can expand on the comparison between strong and weak theories, as outlined by <a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397">Manouchehrifar (2024)</a>: 71 by incorporating insights from urban studies. This helps illustrate how these contrasting approaches related to urban planning and theory.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Strong Theory</strong></th>
+          <th><strong>Weak Theory</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Propensity for generalization</strong>: Urban planning based on universal models designed to apply broadly across diverse cities.</td>
+          <td><strong>Emphasis on specificity</strong>: Urban planning focused on local contexts and unique conditions.</td>
+      </tr>
+      <tr>
+          <td><strong>Aiming to unmask and decrypt</strong>: Employing overarching frameworks to uncover the root causes of any urban challenges.</td>
+          <td><strong>Aiming to describe and explain</strong>: Focusing on specific observations and how cities function in distinct settings.</td>
+      </tr>
+      <tr>
+          <td><strong>Connecting far-flung phenomena</strong>: Linking global urbanization trends with broad policy recommendations.</td>
+          <td><strong>Accounting for near phenomena</strong>: Emphasizing site-specific challenges like informal housing or slum conditions.</td>
+      </tr>
+      <tr>
+          <td><strong>Aversion to surprise and criticism</strong>: Seeking to minimize unpredictability in urban systems through rigid planning frameworks.</td>
+          <td><strong>Openness to doubt and contingency</strong>: Embracing the uncertainties and complexities inherent in urban dynamics.</td>
+      </tr>
+      <tr>
+          <td><strong>Making claims to certainty and universality</strong>: Promoting one-size-fits-all urban solutions.</td>
+          <td><strong>Embracing inconclusiveness and locality</strong>: Proposing localized interventions based on specific urban needs and conditions.</td>
+      </tr>
+      <tr>
+          <td><strong>Prioritizing the ideal and the transcendental</strong>: Advocating for idealized visions of urban development.</td>
+          <td><strong>Appreciating the non-ideal and the transitional</strong>: Highlighting the importance of transitional, imperfect, and adaptive urban solutions in rapidly evolving contexts.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="my-reflections">My Reflections</h3>
+<p>Weak theory shines in its ability to embrace humility and specificity, comparing to the sweeping generalizations often seen in strong theories. By focusing on local contexts and challenges, it sidesteps the pitfalls of one-size-fits-all approaches. For example, weak theory can be particularly effective in addressing issues like informal economies or community-driven initiatives—areas where universal solutions frequently fall short.</p>
+<p>Urban studies and planning could benefit immensely from blending weak and strong theoretical approaches. By integrating the openness and context sensitivity of weak theory with the broader vision and systemic ambition of strong theory, we could tackle urban challenges with both precision and scale. Paired with practical, real-world experimentation, this fusion offers a pathway to reimagine how we approach and solve the complexities of urban life.</p>
+<p>As a PhD student in <strong>Urban Computing</strong>, rethinking the field through the lens of weak theory leads me to the following perspectives: (1) Weak theory emphasizes focus on local context and embracing uncertainty in the future, this encourages us to use methodology like meta-learning to be aware of the differences of cities and use methodologies like test-time adaptation techniques to face temporal out-of-distribution (OoD). (2) The field of urban computing often emphasizes numerical analysis, quantitative metrics, and sophisticated models. While there are significant efforts in fancy algorithm, I propose that urban computing—being an interdisciplinary field that bridges urban studies and computing—should prioritize using computational methods as tools to address real-world urban challenges. It should not merely treat urban data as another data bank to showcase advanced models life.</p>
+<p>Weak theory may not have all the answers, but its flexibility and inclusivity make it a powerful tool for reshaping how we think about—and act within—our cities.</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-weak-theory">What is Weak Theory?</a></li>
+    <li><a href="#critiques-of-weak-theory">Critiques of Weak Theory</a>
+      <ul>
+        <li><a href="#context-of-critiques">Context of Critiques</a></li>
+        <li><a href="#key-critiques">Key Critiques</a></li>
+        <li><a href="#why-weak-theory-still-matters">Why Weak Theory still Matters?</a></li>
+      </ul>
+    </li>
+    <li><a href="#weak-theory-meets-urban-planning">Weak Theory meets Urban Planning</a>
+      <ul>
+        <li><a href="#evolution-and-tensions-in-urban-planning">Evolution and Tensions in Urban Planning</a></li>
+        <li><a href="#weak-or-strong-planning-theory">Weak or Strong Planning Theory</a></li>
+      </ul>
+    </li>
+    <li><a href="#takeaways">Takeaways</a>
+      <ul>
+        <li><a href="#my-reflections">My Reflections</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fweak_theory%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=Weak%20Theory%2c%20Stonge%20Theory%2c%20and%20Urban%20Planning&url=https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fweak_theory%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Weak%20Theory%2c%20Stonge%20Theory%2c%20and%20Urban%20Planning: https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fweak_theory%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=Weak%20Theory%2c%20Stonge%20Theory%2c%20and%20Urban%20Planning&amp;body=Check%20out%20this%20site https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fweak_theory%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/weak_theory/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Weak Theory, Stonge Theory, and Urban Planning">Weak Theory, Stonge …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><!-- # Weak Theory, Stonge Theory, and Urban Planning -->
+<p><em>Note</em>: This blog is written based on my own understanding of concepts discussed in <a href="https://modernismmodernity.org/articles/weak-theory-weak-modernism"><em>Weak Theory, Weak Modernism</em></a> and <a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397"><em>Thinking Sideways: A Plea for “Weak Theory&quot;</em></a>. As a newcomer to these topics, this blog is more like a self learning note summarizing key concepts. The original discussions are more …</p></!--></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Nov 28, 2024</span>
+                    <a href="/blogs/weak_theory/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/causalst_paper/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="📚 Causality meets ST Data - Awesome Papers">📚 Causality meets ST Data …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><!-- # Awesome Cuasality ST Papers -->
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a></p>
+<p>[The <strong>Github repo</strong> can be found <a href="https://github.com/yutong-xia/CausalST_Papers">here</a>!]</p>
+<p>This is a curated collection of papers on the intersection of causality (including causal inference and causal discovery), spatio-temporal data (including spatio-temporal graph/series data, grid data, and trajectory data), and machine learning. For clarity, …</p></!--></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Nov 23, 2024</span>
+                    <a href="/blogs/causalst_paper/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/yutong-xia" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/yutong-xia/" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <a href="https://x.com/xiayutong618" aria-label="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <path fill="#03a9f4"
+                d="M42,37c0,2.762-2.239,5-5,5H11c-2.762,0-5-2.238-5-5V11c0-2.762,2.238-5,5-5h26c2.761,0,5,2.238,5,5 V37z" />
+            <path fill="#fff"
+                d="M36,17.12c-0.882,0.391-1.999,0.758-3,0.88c1.018-0.604,2.633-1.862,3-3 c-0.951,0.559-2.671,1.156-3.793,1.372C31.311,15.422,30.033,15,28.617,15C25.897,15,24,17.305,24,20v2c-4,0-7.9-3.047-10.327-6 c-0.427,0.721-0.667,1.565-0.667,2.457c0,1.819,1.671,3.665,2.994,4.543c-0.807-0.025-2.335-0.641-3-1c0,0.016,0,0.036,0,0.057 c0,2.367,1.661,3.974,3.912,4.422C16.501,26.592,16,27,14.072,27c0.626,1.935,3.773,2.958,5.928,3c-1.686,1.307-4.692,2-7,2 c-0.399,0-0.615,0.022-1-0.023C14.178,33.357,17.22,34,20,34c9.057,0,14-6.918,14-13.37c0-0.212-0.007-0.922-0.018-1.13 C34.95,18.818,35.342,18.104,36,17.12" />
+        </svg>
+    </a>
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="https://hugo-profile.netlify.app/" title="Yutong">
+                        <img alt="Footer logo" src="/gv.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

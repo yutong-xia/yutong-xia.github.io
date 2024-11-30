@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/gv.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJFXWQHD8M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-BJFXWQHD8M');
+        }
+      </script>
+<meta property="og:url" content="https://hugo-profile.netlify.app/blogs/causalst_paper/">
+  <meta property="og:site_name" content="Yutong">
+  <meta property="og:title" content="📚 Causality meets ST Data - Awesome Papers">
+  <meta property="og:description" content="A collection of awesome Causality in ST data papers.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2024-11-23T22:53:58+05:30">
+    <meta property="article:modified_time" content="2024-11-23T22:53:58+05:30">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="📚 Causality meets ST Data - Awesome Papers">
+  <meta name="twitter:description" content="A collection of awesome Causality in ST data papers.">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #117554;
+        --text-link-color: #117554;
+        --background-color: #FBF8EF;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #117554;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="A collection of awesome Causality in ST data papers.">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+📚 Causality meets ST Data - Awesome Papers | Yutong
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/gv.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Yutong
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            Community Services
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Professional Experience
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="gallery.md" title="Gallery">
+                            
+                            Gallery
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">📚 Causality meets ST Data - Awesome Papers</h1>
+            <div class="text-center">
+              
+                Yutong Xia
+                <small>|</small>
+              
+              Nov 23, 2024
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <!-- # Awesome Cuasality ST Papers -->
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a></p>
+<p>[The <strong>Github repo</strong> can be found <a href="https://github.com/yutong-xia/CausalST_Papers">here</a>!]</p>
+<p>This is a curated collection of papers on the intersection of causality (including causal inference and causal discovery), spatio-temporal data (including spatio-temporal graph/series data, grid data, and trajectory data), and machine learning. For clarity, irregular grid data is categorized as spatio-temporal graph data here. In addition, some papers on multivariate time series, which share a similar data structure with spatio-temporal series, are also included.</p>
+<p>Since the collection is curated by an individual, some important papers might have been unintentionally missed. <strong>Your contributions are greatly appreciated!</strong> Feel free to suggest additional papers through <code>Issues</code> or <code>Pull Requests</code>.</p>
+<!-- # Table of Contents
+- [🔍 Survey & Tutorial](#-survey--tutorial)
+	- [Survey](#survey)
+	- [Tutorial](#tutorial)
+- [📄 Papers](#-papers)
+	- [Causal Inference](#causal-inference)
+		- [Spatio-Temporal Graphs](#spatio-temporal-graphsmultivariate-time-series)
+		- [Spatio-Temporal Grid](#spatio-temporal-grid)
+		- [Trajectory](#trajectory)
+	- [Causal Discovery](#causal-discovery)
+		- [Spatio-Temporal Graphs](#spatio-temporal-graphsmultivariate-time-series-1)
+		- [Spatio-Temporal Grid](#spatio-temporal-grid-1) -->
+<h1 id="survey--tutorial">Survey &amp; Tutorial</h1>
+<h2 id="survey">Survey</h2>
+<ul>
+<li><strong>[2024]</strong> Causality for Earth Science &ndash; A Review on Time-series and Spatiotemporal Causality Methods <a href="https://arxiv.org/abs/2404.05746v1">[pdf]</a> (Causal inference, Causal discovery, Spatio-temporal data)</li>
+<li><strong>[2023]</strong> Data-Driven Causal Effect Estimation Based on Graphical Causal Modelling: A Survey <a href="https://arxiv.org/abs/2208.09590">[pdf]</a>  (Causal inference)</li>
+<li><strong>[2023]</strong> Causal Discovery from Temporal Data: An Overview and New Perspectives <a href="https://arxiv.org/abs/2303.10112">[pdf]</a> (Causal discovery, Time series)</li>
+<li><strong>[2023]</strong> A Survey on Causal Discovery Methods for I.I.D. and Time Series Data <a href="https://arxiv.org/abs/2303.15027">[pdf]</a> (Causal discovery, Time series)</li>
+<li><strong>[2022]</strong> Causal Machine Learning: A Survey and Open Problems <a href="https://arxiv.org/abs/2206.15475">[pdf]</a> (CausalML - causal supervised learning, causal generative modeling, causal explanations, causal fairness, causal reinforcement learning)</li>
+<li><strong>[2022]</strong> Survey and Evaluation of Causal Discovery Methods for Time Series <a href="https://www.jair.org/index.php/jair/article/view/13428">[pdf]</a> (Causal Discovery, Time Series)</li>
+<li><strong>[2021]</strong> D&rsquo;ya like DAGs? A Survey on Structure Learning and Causal Discovery <a href="https://arxiv.org/abs/2103.02582">[pdf]</a> (Causal discovery)</li>
+</ul>
+<h2 id="tutorial">Tutorial</h2>
+<ul>
+<li><strong>[SIGSPATIAL'24]</strong> Tutorial on Causal Inference with Spatiotemporal Data <a href="https://dl.acm.org/doi/pdf/10.1145/3681778.3698786">[pdf]</a> <a href="https://github.com/SaharaAli16/spatiotemporal-causality/tree/main/stcausal2024">[code]</a></li>
+<li><strong>[KDD'23]</strong> Causal Discovery from Temporal Data <a href="https://dl.acm.org/doi/pdf/10.1145/3580305.3599552">[pdf]</a> <a href="https://chaunceykung.github.io/temporal-causal-discovery-tutorial/">[website]</a></li>
+<li><strong>[KDD'21]</strong> Causal Inference from Network Data <a href="https://dl.acm.org/doi/pdf/10.1145/3447548.3470795">[pdf]</a></li>
+<li><strong>[KDD'21]</strong> Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber <a href="https://dl.acm.org/doi/10.1145/3447548.3470792">[pdf]</a></li>
+</ul>
+<h1 id="papers">Papers</h1>
+<h2 id="causal-inference">Causal Inference</h2>
+<h3 id="spatio-temporal-graphsmultivariate-time-series">Spatio-Temporal Graphs/Multivariate Time Series</h3>
+<ul>
+<li><strong>[ICLR'24]</strong> Causality-Inspired Spatial-Temporal Explanations for Dynamic Graph Neural Networks <a href="https://openreview.net/pdf?id=AJBkfwXh3u">[pdf]</a>  <a href="https://github.com/kesenzhao/DyGNNExplainer">[code]</a> (Node and graph classification, Back-door adjustment)</li>
+<li><strong>[AAAI'24]</strong> Instrumental Variable Estimation for Causal Inference in Longitudinal Data with Time-Dependent Latent Confounders <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29029">[pdf]</a> (Instrumental variable, Causal effect estimation)</li>
+<li><strong>[CIKM'24]</strong> Causality-Aware Spatiotemporal Graph Neural Networks for Spatiotemporal Time Series Imputation <a href="https://dl.acm.org/doi/10.1145/3627673.3679642">[pdf]</a> (Imputation, Front-door adjustment, Causal attention)</li>
+<li><strong>[WSDM ’24]</strong> CityCAN: Causal Attention Network for Citywide Spatio-Temporal Forecasting <a href="https://dl.acm.org/doi/pdf/10.1145/3616855.3635764">[pdf]</a> (Forecasting, Causal attention)</li>
+<li><strong>[BigData'24]</strong> Spatiotemporal Learning With Decoupled Causal Attention for Multivariate Time Series]<a href="https://ieeexplore.ieee.org/abstract/document/10753616/?casa_token=AFgShF4Y9zMAAAAA:GDdSc8jAHhjTQTAhVbNA5WCMVSQ_Eq5tXmp_k2-EzbWx5MvoDT46g-Smz2woJ_DpRKGZII2SnrW_">[pdf]</a> (Forecasting, Causal attention)</li>
+<li><strong>[ICCBR'24]</strong> Spatio-Temporal Graph Neural Network with Hidden Confounders for Causal Forecast <a href="https://ceur-ws.org/Vol-3708/paper_13.pdf">[pdf]</a> <a href="https://github.com/xinxinluo123/CISTGNN">[code]</a> (Forecasting, Back-door criterion)</li>
+<li><strong>[arXiv'24]</strong> Causally-Aware Spatio-Temporal Multi-Graph Convolution Network for Accurate and Reliable Traffic Prediction <a href="https://arxiv.org/abs/2408.13293">[pdf]</a> (Forecasting, Uncertainty quantification, Information fusion)</li>
+<li><strong>[NeurIPS'23]</strong> Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/74fa3651b41560e1c7555e0958c70333-Paper-Conference.pdf">[pdf]</a>  <a href="https://github.com/yutong-xia/CaST">[code]</a> (Forecasting, Back-door adjustment, Front-door adjustment)</li>
+<li><strong>[AAAI'23]</strong> Spatio-temporal neural structural causal models for bike flow prediction <a href="https://arxiv.org/abs/2301.07843">[pdf]</a> <a href="https://github.com/EternityZY/STNSCM">[code]</a> (Forecasting, Front-door criterion)</li>
+<li><strong>[AAAI'23]</strong> Causal conditional hidden Markov model for multimodal traffic prediction <a href="https://dl.acm.org/doi/abs/10.1609/aaai.v37i4.25619">[pdf]</a>  <a href="https://github.com/EternityZY/CCHMM">[code]</a> (Conditional Markov Process, Multimodal data)</li>
+<li><strong>[KDD'23]</strong> Generative Causal Interpretation Model for Spatio-Temporal Representation Learning <a href="https://doi.org/10.1145/3580305.3599363">[pdf]</a> <a href="https://github.com/EternityZY/GCIM">[code]</a> (VAE, Forecasting, ICA Theory)</li>
+<li><strong>[ICMLA'23]</strong> Quantifying Causes of Arctic Amplification via Deep Learning based Time-series Causal Inference <a href="https://ieeexplore.ieee.org/abstract/document/10460053?casa_token=jYfB7zIzGm4AAAAA:XL9juR0uSrH1bs1UxGih-nn_MshDHMffsKYv5byHZKGadD2IE4mnqngEYFQHy32wPv6UII9EPS4_">[pdf]</a>  <a href="https://github.com/iharp-institute/causality-for-arctic-amplification/tree/main/tcinet-icmla2023">[code]</a> (Counterfactual prediction, Earth science)</li>
+<li><strong>[AAAG'23]</strong> Spatiotemporal Heterogeneities in the Causal Effects of Mobility Intervention Policies during the COVID-19 Outbreak: A Spatially Interrupted Time-Series (SITS) Analysis <a href="https://www.tandfonline.com/doi/full/10.1080/24694452.2022.2161986?scroll=top&amp;needAccess=true">[pdf]</a> (Spatio-temporal heterogeneity, Mobile phone data, Mobility control policy)</li>
+<li><strong>[Nature Reviews Earth &amp; Environment’23]</strong> Causal inference for time series <a href="https://www.nature.com/articles/s43017-023-00431-y?fromPaywallRec=false">[pdf]</a> <a href="https://github.com/jakobrunge/tigramite/tree/master/tutorials/case_studies">[code]</a> (Earth science, Causal effect estimation, Causal discovery)</li>
+</ul>
+<h3 id="spatio-temporal-grid">Spatio-Temporal Grid</h3>
+<ul>
+<li><strong>[NeurIPS'24]</strong> Causal Deciphering and Inpainting in Spatio-Temporal Dynamics via Diffusion Model <a href="https://arxiv.org/pdf/2409.19608">[pdf]</a> (Diffusion model, Backdoor adjustment, Frontdoor adjustment)</li>
+<li><strong>[ICLR'24]</strong> NuwaDynamics: Discovering and Updating in Causal Spatio-Temporal Modeling <a href="https://openreview.net/pdf?id=sLdVl0q68X">[pdf]</a>  <a href="https://github.com/easylearningscores/NuwaDynamics">[code]</a> (Ocean system, Back-door adjustion)</li>
+<li><strong>[ECML'24]</strong> Estimating Direct and Indirect Causal Effects of Spatiotemporal Interventions in Presence of Spatial Interference <a href="https://arxiv.org/pdf/2405.08174">[pdf]</a>  <a href="https://github.com/iharp-institute/causality-for-arctic-amplification/tree/main/stcinet">[code]</a> (Treatment effects estimation, Spillover effects)</li>
+<li><strong>[ICML'22]</strong> CITRIS: Causal Identifiability from Temporal Intervened Sequences <a href="https://proceedings.mlr.press/v162/lippe22a/lippe22a.pdf">[pdf]</a> <a href="https://github.com/phlippe/CITRIS">[code]</a> (Causal representations learning, Multidimensional causal factors, Image data)</li>
+</ul>
+<h3 id="trajectory">Trajectory</h3>
+<ul>
+<li><strong>[IJCAI'24]</strong> Towards Robust Trajectory Representations: Isolating Environmental Confounders with Causal Learning <a href="https://arxiv.org/abs/2404.14073">[pdf]</a> (Representation learning, Intervention learning, Back-door adjustment)</li>
+<li><strong>[Inf.Fusion'24]</strong> Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model <a href="https://dl.acm.org/doi/10.1016/j.inffus.2024.102309">[pdf]</a> (Front-door criterion)</li>
+</ul>
+<h2 id="causal-discovery">Causal Discovery</h2>
+<h3 id="spatio-temporal-graphsmultivariate-time-series-1">Spatio-Temporal Graphs/Multivariate Time Series</h3>
+<ul>
+<li><strong>[AAAI'24]</strong> CUTS+: High-Dimensional Causal Discovery from Irregular Time-Series <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29034">[pdf]</a> <a href="https://github.com/jarrycyx/UNN">[code]</a> (Irregular sampling, Granger causality)</li>
+<li><strong>[ICLR'24]</strong> CausalTime: Realistically Generated Time-series for Benchmarking of Causal Discovery <a href="https://openreview.net/pdf?id=iad1yyyGme">[pdf]</a> <a href="https://github.com/jarrycyx/UNN">[code]</a> <a href="https://www.causaltime.cc/">[websit]</a> (Benchmarks, Time series)</li>
+<li><strong>[ICML'24]</strong> # Causal Discovery via Conditional Independence Testing with Proxy Variables <a href="https://arxiv.org/pdf/2305.05281">[pdf]</a> <a href="https://github.com/lmz123321/proxy_causal_discovery">[code]</a> (Time series, Proxy causal learning, Conditional independence testing)</li>
+<li><strong>[TNNLS ’24]</strong> Dynamic Causal Explanation Based Diffusion-Variational Graph Neural Network for Spatio-temporal Forecasting <a href="https://ieeexplore.ieee.org/abstract/document/10589693">[pdf]</a> <a href="https://github.com/gorgen2020/DVGNN">[code]</a> (Forecasting, Diffusion process)</li>
+<li><strong>[ICLR'23]</strong>  CUTS: Neural Causal Discovery from Irregular Time-Series Data <a href="https://openreview.net/forum?id=UG8bQcD3Emv">[pdf]</a> <a href="https://github.com/jarrycyx/UNN">[code]</a> (EM-Style, Imputation, Irregular temporal data)</li>
+<li><strong>[NeurIPS'23]</strong> Causal Discovery from Subsampled Time Series with Proxy Variables <a href="https://arxiv.org/pdf/2305.05276">[pdf]</a> <a href="https://github.com/lmz123321/proxy_causal_discovery">[code]</a> (Time series, Subsampling)</li>
+<li><strong>[AAAI'23]</strong> Causal Recurrent Variational Autoencoder for Medical Time Series Generation <a href="https://ojs.aaai.org/index.php/AAAI/article/view/26031">[pdf]</a> <a href="https://github.com/hongmingli1995/CR-VAE">[code]</a> (CR-VAE, Generative model)</li>
+<li><strong>[CIKM ’23]</strong> STREAMS: Towards Spatio-Temporal Causal Discovery with Reinforcement Learning for Streamflow Rate Prediction <a href="https://dl.acm.org/doi/pdf/10.1145/3583780.3614719?casa_token=x2ZGXSpdv2oAAAAA:0TgQHB4OROEtXfzClY89QvfJ0aFXwviASBeNCjSTEnEaQlYhaaCZ0hEYQLuGBzte3-CkaB7pbWYB">[pdf]</a>  <a href="https://github.com/paras2612/STREAMS/tree/main">[code]</a> (Forecasting, Reinforcement Learning)</li>
+<li><strong>[CIKM ’23]</strong> Causal Discovery in Temporal Domain from Interventional Data <a href="https://dl.acm.org/doi/10.1145/3583780.3615177">[pdf]</a><a href="https://github.com/lpwpower/TECDI">[code]</a> (Temporal reasoning, Multivariate time series)</li>
+<li><strong>[CIKM'22]</strong> Nonlinear Causal Discovery in Time Series <a href="https://dl.acm.org/doi/pdf/10.1145/3511808.3557660">[pdf]</a> (Functional Causal Model, Time series, Non-stationary data)</li>
+<li><strong>[CLeaR'22]</strong> Amortized Causal Discovery: Learning to Infer Causal Graphs from Time-Series Data <a href="https://proceedings.mlr.press/v177/lowe22a">[pdf]</a><a href="https://github.com/loeweX/AmortizedCausalDiscovery">[code]</a> (Granger Causality, Noisy Observations)</li>
+<li><strong>[ICLR'21]</strong> Interpretable Models for Granger Causality Using Self-explaining Neural Networks <a href="https://arxiv.org/abs/2101.07600">[pdf]</a> <a href="https://github.com/i6092467/GVAR">[code]</a> (Granger causality, Interpretable models)</li>
+<li><strong>[ICML'21]</strong> Necessary and sufficient conditions for causal feature selection in time series with latent common causes <a href="https://proceedings.mlr.press/v139/mastakouri21a.html">[pdf]</a> (Causal feature selection)</li>
+<li><strong>[PAMI'21]</strong> Neural Granger Causality <a href="https://ieeexplore.ieee.org/abstract/document/9376668">[pdf]</a> <a href="https://github.com/iancovert/Neural-GC">[code]</a> (Structured sparsity, Interpretability, Granger causality)</li>
+<li><strong>[NeurIPS'20]</strong> High-recall causal discovery for autocorrelated time series with latent confounders <a href="https://proceedings.neurips.cc/paper/2020/hash/94e70705efae423efda1088614128d0b-Abstract.html">[pdf]</a> <a href="https://github.com/jakobrunge/tigramite">[code]</a> (Tigramite - Benchmark and python package, High-dimensional time series)</li>
+<li><strong>[ICML'20]</strong> CAUSE: Learning Granger Causality from Event Sequences using Attribution Methods <a href="https://proceedings.mlr.press/v119/zhang20v.html">[pdf]</a> <a href="https://github.com/razhangwei/CAUSE">[code]</a> (Granger causality)</li>
+<li><strong>[AISTATS'20]</strong> DYNOTEARS: Structure Learning from Time-Series Data <a href="http://proceedings.mlr.press/v108/pamfil20a/pamfil20a.pdf">[pdf]</a> (Dynamic Bayesian networks, Structure learning, Time series, Acyclicity constraint)</li>
+<li><strong>[UAI'20]</strong> Discovering Contemporaneous and Lagged Causal Relations in Autocorrelated Nonlinear Time Series Datasets <a href="https://proceedings.mlr.press/v124/runge20a.html">[pdf]</a> <a href="https://github.com/jakobrunge/tigramite">[code]</a> (Time series, Autocorrelation)</li>
+<li><strong>[Chaos'18]</strong> Causal network reconstruction from time series: From theoretical assumptions to practical estimation <a href="https://pubs.aip.org/aip/cha/article/28/7/075310/386353/Causal-network-reconstruction-from-time-series">[pdf]</a> <a href="https://github.com/jakobrunge/tigramite">[code]</a> (Granger causality, Causal Markov condition)</li>
+<li><strong>[BigData'17]</strong> pg-Causality: Identifying Spatiotemporal Causal Pathways for Air Pollutants with Urban Big Data <a href="https://ieeexplore.ieee.org/abstract/document/7970191?casa_token=7lkgIeczDeAAAAAA:3r1LnamcYI2x2_n7OBZgcB62wz5Qnvkkp1JL71hHVj9otjPFIjFP2c34XD28BJpi6qa0_QPk1J8O">[pdf]</a> (Bayesian learning, Causal pathways, Air Quality)</li>
+</ul>
+<h3 id="spatio-temporal-grid-1">Spatio-Temporal Grid</h3>
+<ul>
+<li><strong>[arXiv'24]</strong> Discovering Latent Structural Causal Models from Spatio-Temporal Data <a href="https://arxiv.org/abs/2411.05331">[pdf]</a> <a href="https://anonymous.4open.science/r/spacy-572B/readme.md">[code]</a> (Climate data)</li>
+<li><strong>[BigData'22]</strong> A spatio-temporal causal discovery framework for hydrological systems <a href="https://ieeexplore.ieee.org/abstract/document/10020845?casa_token=Z55rZssq0DMAAAAA:LFwBbozUEBeV22D4nZMB-PTg5bLhUX5KWkT8xDpymn9Ha0jDMgaBvU1IUOdOjPEgIp4_5eBM0euk">[pdf]</a> <a href="https://github.com/paras2612/STCD">[code]</a> (Hydrological systems)</li>
+<li><strong>[Environmental Data Science'22]</strong> A spatiotemporal stochastic climate model for benchmarking causal discovery methods for teleconnections <a href="https://www.cambridge.org/core/journals/environmental-data-science/article/spatiotemporal-stochastic-climate-model-for-benchmarking-causal-discovery-methods-for-teleconnections/0E066B8813BA2281D2B95279EF3272B4">[pdf]</a>  <a href="https://github.com/xtibau/mapped_pcmci">[code]</a>  (Climate data, Teleconnections)</li>
+<li><strong>[Nature Communications'15]</strong> Identifying causal gateways and mediators in complex spatio-temporal systems <a href="https://www.nature.com/articles/ncomms9502">[pdf]</a> (Atmospheric dynamics, Complex systems, Causal effect estimation)</li>
+</ul>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#survey">Survey</a></li>
+    <li><a href="#tutorial">Tutorial</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#causal-inference">Causal Inference</a>
+      <ul>
+        <li><a href="#spatio-temporal-graphsmultivariate-time-series">Spatio-Temporal Graphs/Multivariate Time Series</a></li>
+        <li><a href="#spatio-temporal-grid">Spatio-Temporal Grid</a></li>
+        <li><a href="#trajectory">Trajectory</a></li>
+      </ul>
+    </li>
+    <li><a href="#causal-discovery">Causal Discovery</a>
+      <ul>
+        <li><a href="#spatio-temporal-graphsmultivariate-time-series-1">Spatio-Temporal Graphs/Multivariate Time Series</a></li>
+        <li><a href="#spatio-temporal-grid-1">Spatio-Temporal Grid</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fcausalst_paper%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=%f0%9f%93%9a%20Causality%20meets%20ST%20Data%20-%20Awesome%20Papers&url=https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fcausalst_paper%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=%f0%9f%93%9a%20Causality%20meets%20ST%20Data%20-%20Awesome%20Papers: https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fcausalst_paper%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=%f0%9f%93%9a%20Causality%20meets%20ST%20Data%20-%20Awesome%20Papers&amp;body=Check%20out%20this%20site https%3a%2f%2fhugo-profile.netlify.app%2fblogs%2fcausalst_paper%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/weak_theory/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Weak Theory, Stonge Theory, and Urban Planning">Weak Theory, Stonge …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><!-- # Weak Theory, Stonge Theory, and Urban Planning -->
+<p><em>Note</em>: This blog is written based on my own understanding of concepts discussed in <a href="https://modernismmodernity.org/articles/weak-theory-weak-modernism"><em>Weak Theory, Weak Modernism</em></a> and <a href="https://journals.sagepub.com/doi/abs/10.1177/14730952231162397"><em>Thinking Sideways: A Plea for “Weak Theory&quot;</em></a>. As a newcomer to these topics, this blog is more like a self learning note summarizing key concepts. The original discussions are more …</p></!--></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Nov 28, 2024</span>
+                    <a href="/blogs/weak_theory/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/causalst_paper/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="📚 Causality meets ST Data - Awesome Papers">📚 Causality meets ST Data …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><!-- # Awesome Cuasality ST Papers -->
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a></p>
+<p>[The <strong>Github repo</strong> can be found <a href="https://github.com/yutong-xia/CausalST_Papers">here</a>!]</p>
+<p>This is a curated collection of papers on the intersection of causality (including causal inference and causal discovery), spatio-temporal data (including spatio-temporal graph/series data, grid data, and trajectory data), and machine learning. For clarity, …</p></!--></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Nov 23, 2024</span>
+                    <a href="/blogs/causalst_paper/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/yutong-xia" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/yutong-xia/" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <a href="https://x.com/xiayutong618" aria-label="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <path fill="#03a9f4"
+                d="M42,37c0,2.762-2.239,5-5,5H11c-2.762,0-5-2.238-5-5V11c0-2.762,2.238-5,5-5h26c2.761,0,5,2.238,5,5 V37z" />
+            <path fill="#fff"
+                d="M36,17.12c-0.882,0.391-1.999,0.758-3,0.88c1.018-0.604,2.633-1.862,3-3 c-0.951,0.559-2.671,1.156-3.793,1.372C31.311,15.422,30.033,15,28.617,15C25.897,15,24,17.305,24,20v2c-4,0-7.9-3.047-10.327-6 c-0.427,0.721-0.667,1.565-0.667,2.457c0,1.819,1.671,3.665,2.994,4.543c-0.807-0.025-2.335-0.641-3-1c0,0.016,0,0.036,0,0.057 c0,2.367,1.661,3.974,3.912,4.422C16.501,26.592,16,27,14.072,27c0.626,1.935,3.773,2.958,5.928,3c-1.686,1.307-4.692,2-7,2 c-0.399,0-0.615,0.022-1-0.023C14.178,33.357,17.22,34,20,34c9.057,0,14-6.918,14-13.37c0-0.212-0.007-0.922-0.018-1.13 C34.95,18.818,35.342,18.104,36,17.12" />
+        </svg>
+    </a>
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="https://hugo-profile.netlify.app/" title="Yutong">
+                        <img alt="Footer logo" src="/gv.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
