@@ -1,0 +1,102 @@
+#talk {
+    padding: 40px 0; /* Reduce padding for a more compact look */
+    line-height: 1.6em;
+    font-size: 17px;
+}
+
+/* Title */
+#talk .title > h1 {
+    opacity: 0.9;
+    color: var(--text-color) !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#talk .title small {
+    opacity: 0.7;
+    font-size: 18px;
+} 
+
+/* Talk section styling */
+#talk .talks-list {
+    margin-top: 20px;
+}
+
+#talk .talks-list h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Talk Items */
+#talk .talks-list .talk-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 3px solid var(--primary-color);
+    background: var(--secondary-color);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.talk-item:hover {
+    transform: scale(1.02);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+#talk .talks-list .talk-title {
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+#talk .talks-list .talk-details {
+    font-size: 16px;
+    color: var(--text-secondary-color);
+}
+
+#talk .talk-meta {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .talk-links {
+    margin: 0px 0 0px 0;
+    font-size: 15px;
+}
+
+.talk-links a {
+    text-decoration: none;
+    /* color: var(--text-link-color); */
+    margin-right: 8px;
+    font-weight: 400;
+}
+
+.talk-links a:hover {
+    /* color: var(--primary-color); */
+    text-decoration: underline;
+}
+  #talk .talk-date::before {
+    content: "📆 ";
+    margin-right: 5px;
+  }
+
+  
+#talk .talk-date {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--text-muted);
+    float: right;
+}
+
+
+.talk-location {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.talk-location::before {
+    content: "📍 ";
+    margin-right: 5px;
+  }
+
