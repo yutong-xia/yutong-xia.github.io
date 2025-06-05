@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Yutong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Closer Look at CaST (Q&amp;A Format)</title>
+      <link>http://localhost:1313/blogs/foundation_model_urban/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/foundation_model_urban/</guid>
+      <description>&lt;!-- # A Closer Look at CaST (Q&amp;A Format) --&gt;&#xA;&lt;p&gt;In our NeurIPS 2023 paper &lt;a href=&#34;https://arxiv.org/pdf/2309.13378&#34;&gt;&lt;em&gt;“Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment”&lt;/em&gt;&lt;/a&gt;, we introduce &lt;strong&gt;CaST&lt;/strong&gt;, a causal framework designed to tackle two key challenges in spatio-temporal graph forecasting: &lt;strong&gt;temporal distribution shifts&lt;/strong&gt; and &lt;strong&gt;dynamic spatial causation&lt;/strong&gt;. We are truly grateful for the encouraging attention and feedback we&amp;rsquo;ve received  from the community.&lt;/p&gt;&#xA;&lt;p&gt;To help readers better understand the motivations and technical choices behind &lt;strong&gt;CaST&lt;/strong&gt;, this post presents a Q&amp;amp;A-style deep dive into some of the most commonly asked questions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Weak Theory, Strong Theory, and Urban Planning</title>
       <link>http://localhost:1313/blogs/weak_theory/</link>
