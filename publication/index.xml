@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Yutong</title>
+    <link>https://hugo-profile.netlify.app/publication/</link>
+    <description>Recent content in Publications on Yutong</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hugo-profile.netlify.app/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Causal Time Series Generation via Diffusion Models</title>
+      <link>https://hugo-profile.netlify.app/publication/2025_castg/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/publication/2025_castg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Foundation models for spatio-temporal data science: A tutorial and survey</title>
+      <link>https://hugo-profile.netlify.app/publication/2025_kddtut/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/publication/2025_kddtut/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reimagining Urban Science: Scaling Causal Inference with Large Language Models</title>
+      <link>https://hugo-profile.netlify.app/publication/2025_urbancia/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/publication/2025_urbancia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CaPulse: Detecting Anomalies by Tuning in to the Causal Rhythms of Time Series</title>
+      <link>https://hugo-profile.netlify.app/publication/2024_capulse/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/publication/2024_capulse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Through the Dual-Prism: A Spectral Perspective on Graph Data Augmentation for Graph Classification</title>
+      <link>https://hugo-profile.netlify.app/publication/2024_dualprism/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/publication/2024_dualprism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Predicting Carpark Availability in Singapore with Cross-Domain Data: A New Dataset and A Data-Driven Approach</title>
+      <link>https://hugo-profile.netlify.app/publication/2024_sinpa/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/publication/2024_sinpa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment</title>
+      <link>https://hugo-profile.netlify.app/publication/2023_cast/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/publication/2023_cast/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Yutong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hugo-profile.netlify.app/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Key Challenges in ST Causal AI</title>
+      <link>https://hugo-profile.netlify.app/blogs/causalst_challenge/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/blogs/causalst_challenge/</guid>
+      <description>&lt;p&gt;In recent years, spatio-temporal (ST) deep models have become increasingly powerful. We build larger models, learn richer representations, and achieve strong performance across many tasks. At the same time, as these models are expected to be more interpretable and more reliable for supporting real-world decision-making, causal perspectives have been increasingly introduced into deep ST modeling. However, bringing causal ideas into ST systems is far from straightforward. Many challenges that are manageable in static or i.i.d. settings become harder once space and time are involved.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Closer Look at CaST (Q&amp;A Format)</title>
       <link>https://hugo-profile.netlify.app/blogs/cast_fqa/</link>

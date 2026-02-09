@@ -692,3 +692,186 @@ header .navbar.animate {
     box-shadow: 0px 8px 56px rgb(15 80 100 / 5%);
     padding: .5rem 1rem;
 }
+
+
+/* Publications */
+
+#publications a {
+    opacity: 0.9;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-link-color) !important;
+}
+
+#publications h3,
+#publications .section-title {
+    color: var(--text-secondary-color) !important;
+}
+
+#publications {
+    color: var(--text-color);
+}
+
+
+#publications .pub-topics{
+    color: var(--text-color);
+    opacity: 0.9;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+
+/* Publication title: colored + bold, NOT clickable */
+#publications .pub-title{
+    color: var(--text-link-color);   /* 和 education / achievements 的标题色一致 */
+    font-weight: 700;                /* 加粗 */
+    font-size: 1.05rem;              /* 标题字号（可调到 1.1rem） */
+    line-height: 1.35;
+  }
+  
+
+  
+  #publications .pub-authors,
+  #publications .pub-venue{
+    color: var(--text-color);
+    opacity: 0.9;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin-top: 0.5rem;
+  }
+  
+  #publications .pub-venue a{
+    color: var(--text-link-color) !important;
+    text-decoration: none;
+    opacity: 0.9;
+    font-weight: 500;
+  }
+  
+  
+  #publications .pub-venue a:hover,
+  #publications .pub-title a:hover{
+    opacity: 1;
+    text-decoration: underline;
+  }
+  
+  
+  #publications .pub-venue .venue{
+    font-weight: 700;                 /* 加粗 */
+    color: var(--text-color);
+  }
+
+  #publications .pub-authors{
+    font-size: 0.95rem;
+    line-height: 1.45;
+    color: var(--text-color);
+  }
+  
+  #publications .pub-authors .author-me{
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
+  
+  #publications .pub-authors .pub-legend{
+    margin-left: 8px;
+    opacity: 0.75;
+    font-size: 0.9em;
+  }
+
+
+  /* simple layout (no card) */
+  #publications .pub-row{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+  
+  #publications .pub-thumb img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  @media (max-width: 860px){
+    #publications .pub-row{
+      grid-template-columns: 1fr;
+    }
+    #publications .pub-thumb img{
+      max-width: 520px;
+    }
+  }
+
+  
+/* experience: show all items, disable tab switching */
+#experience .tab-content > .tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+#experience .nav,
+#experience .nav-tabs {
+    display: none !important;
+}
+
+#experience .experience-container {
+    padding: 1.2rem 1.5rem;
+}
+
+#experience .tab-pane {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+#experience .tab-pane:last-child {
+    border-bottom: none;
+}
+
+#experience .tab-pane p {
+    padding: 0.3rem 0 !important;
+    margin: 0;
+}
+
+#experience .tab-pane ul {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+#experience .experience-container .tab-content .tab-pane ul li {
+    margin-bottom: 6px;
+}
+
+/* experience: remove card background */
+#experience .experience-container {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0;
+    padding: 0;
+}
+
+#experience .container {
+    max-width: 1500px;   /* 可试 960 / 1040 / 1100 */
+}
+
+/* experience timeline layout */
+#experience .tab-pane {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    column-gap: 24px;
+    padding: 1rem 0;
+}
+
+
+/* #experience .tab-pane small {
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    font-size: 0.9rem;
+} */
+/* 
+#experience .tab-pane {
+    border-left: 2px solid rgba(0,0,0,0.05);
+    padding-left: 24px;
+} */
+
