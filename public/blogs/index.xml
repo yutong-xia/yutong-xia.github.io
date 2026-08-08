@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Yutong</title>
-    <link>http://localhost:1313/blogs/</link>
+    <link>https://hugo-profile.netlify.app/blogs/</link>
     <description>Recent content in Blogs on Yutong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hugo-profile.netlify.app/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Key Challenges in ST Causal AI</title>
+      <link>https://hugo-profile.netlify.app/blogs/causalst_challenge/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/blogs/causalst_challenge/</guid>
+      <description>&lt;p&gt;In recent years, spatio-temporal (ST) deep models have become increasingly powerful. We build larger models, learn richer representations, and achieve strong performance across many tasks. At the same time, as these models are expected to be more interpretable and more reliable for supporting real-world decision-making, causal perspectives have been increasingly introduced into deep ST modeling. However, bringing causal ideas into ST systems is far from straightforward. Many challenges that are manageable in static or i.i.d. settings become harder once space and time are involved.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Closer Look at CaST (Q&amp;A Format)</title>
+      <link>https://hugo-profile.netlify.app/blogs/cast_fqa/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://hugo-profile.netlify.app/blogs/cast_fqa/</guid>
+      <description>&lt;!-- # A Closer Look at CaST (Q&amp;A Format) --&gt;&#xA;&lt;p&gt;In our NeurIPS 2023 paper &lt;a href=&#34;https://arxiv.org/pdf/2309.13378&#34;&gt;&lt;em&gt;“Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment”&lt;/em&gt;&lt;/a&gt;, we introduce &lt;strong&gt;CaST&lt;/strong&gt;, a causal framework designed to tackle two key challenges in spatio-temporal graph forecasting: &lt;strong&gt;temporal distribution shifts&lt;/strong&gt; and &lt;strong&gt;dynamic spatial causation&lt;/strong&gt;. We are truly grateful for the encouraging attention and feedback we&amp;rsquo;ve received  from the community.&lt;/p&gt;&#xA;&lt;p&gt;To help readers better understand the motivations and technical choices behind &lt;strong&gt;CaST&lt;/strong&gt;, this post presents a Q&amp;amp;A-style deep dive into some of the most commonly asked questions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Weak Theory, Strong Theory, and Urban Planning</title>
-      <link>http://localhost:1313/blogs/weak_theory/</link>
+      <link>https://hugo-profile.netlify.app/blogs/weak_theory/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/weak_theory/</guid>
+      <guid>https://hugo-profile.netlify.app/blogs/weak_theory/</guid>
       <description>&lt;!-- # Weak Theory, Stonge Theory, and Urban Planning --&gt;&#xA;&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: This blog is written based on my own understanding of concepts discussed in &lt;a href=&#34;https://modernismmodernity.org/articles/weak-theory-weak-modernism&#34;&gt;&lt;em&gt;Weak Theory, Weak Modernism&lt;/em&gt;&lt;/a&gt;, &lt;a href=&#34;https://journals.sagepub.com/doi/abs/10.1177/14730952231162397&#34;&gt;&lt;em&gt;Thinking Sideways: A Plea for “Weak Theory&amp;quot;&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://muse.jhu.edu/pub/17/article/902816&#34;&gt;&lt;em&gt;Weak Theory—A Report on the Contemporary&lt;/em&gt;&lt;/a&gt;. This blog is more like a self learning note summarizing key concepts and the original discussions are more comprehensive. If you’re interested in exploring these ideas further, I highly recommend reading the original papers :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>📚 Causality meets ST Data - Awesome Papers</title>
-      <link>http://localhost:1313/blogs/causalst_paper/</link>
+      <link>https://hugo-profile.netlify.app/blogs/causalst_paper/</link>
       <pubDate>Sat, 23 Nov 2024 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/causalst_paper/</guid>
+      <guid>https://hugo-profile.netlify.app/blogs/causalst_paper/</guid>
       <description>&lt;!-- # Awesome Cuasality ST Papers --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/sindresorhus/awesome&#34;&gt;&lt;img src=&#34;https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg&#34; alt=&#34;Awesome&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[The &lt;strong&gt;Github repo&lt;/strong&gt; can be found &lt;a href=&#34;https://github.com/yutong-xia/CausalST_Papers&#34;&gt;here&lt;/a&gt;!]&lt;/p&gt;&#xA;&lt;p&gt;This is a curated collection of papers on the intersection of causality (including causal inference and causal discovery), spatio-temporal data (including spatio-temporal graph/series data, grid data, and trajectory data), and machine learning. For clarity, irregular grid data is categorized as spatio-temporal graph data here. In addition, some papers on multivariate time series, which share a similar data structure with spatio-temporal series, are also included.&lt;/p&gt;</description>
     </item>
   </channel>

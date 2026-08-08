@@ -34,14 +34,17 @@
     margin-bottom: 15px;
     padding: 10px;
     border-left: 3px solid var(--primary-color);
-    background: var(--secondary-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: white;
     border-radius: 5px;
     transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
 .talk-item:hover {
     transform: scale(1.02);
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.02);
 }
 
 #talk .talks-list .talk-title {
