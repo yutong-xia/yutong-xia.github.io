@@ -1,0 +1,104 @@
+/* Site-wide title style: Alegreya SemiBold with a soft highlighter stroke under the
+   lower half of the words (style adapted from shenleixian.github.io).
+   Loaded on every page from layouts/partials/head.html. */
+
+:root {
+    --hl-color: #d3eedd;
+}
+body.dark {
+    --hl-color: rgba(46, 160, 110, 0.35);
+}
+
+/* section titles, the footer "Recent Posts", list-page and talk-page titles, the hero name */
+#content section > .container > h3.text-center,
+#recent-posts > .h3,
+#list-page > h2,
+#single .title > h1,
+#hero h2 {
+    font-family: "Alegreya", Georgia, "Times New Roman", serif !important;
+    font-weight: 600 !important;
+    position: relative;
+    isolation: isolate;
+}
+
+/* centred titles: shrink the box to the words so the stroke only spans the text */
+#content section > .container > h3.text-center,
+#recent-posts > .h3,
+#list-page > h2,
+#single .title > h1 {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-color) !important;
+}
+
+#hero h2 {
+    display: table;
+}
+
+/* the stroke sits on the box's bottom edge, so Bootstrap's vertical padding on these
+   titles would push it below the words: move that spacing into margins instead */
+#recent-posts > .h3 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+}
+#list-page > h2 {
+    padding-bottom: 0 !important;
+    margin-bottom: 1rem !important;
+}
+
+#content section > .container > h3.text-center::after,
+#recent-posts > .h3::after,
+#list-page > h2::after,
+#single .title > h1::after,
+#hero h2::after {
+    content: "";
+    position: absolute;
+    left: -0.12em;
+    right: -0.12em;
+    bottom: 0.12em;
+    height: 0.6em;
+    border-radius: 30%;
+    background: var(--hl-color);
+    z-index: -1;
+}
+
+/* homepage notice: one line under the hero text, in its font, set apart by colour */
+:root {
+    --notice-color: #c2410c;
+}
+body.dark {
+    --notice-color: #ffa366;
+}
+#hero p.hero-announcement {
+    opacity: 1;
+    color: var(--notice-color);
+}
+/* two-column layout: run past the text column, under the avatar */
+@media (min-width: 992px) {
+    #hero p.hero-announcement {
+        width: 150%;
+        max-width: none;
+    }
+}
+#hero p.hero-announcement a {
+    color: inherit;
+    text-decoration: underline;
+}
+/* Alata ships one weight and the browser does not synthesize a bold, so draw the weight with a same-colour stroke */
+#hero p.hero-announcement strong {
+    -webkit-text-stroke: 0.035em currentColor;
+}
+
+/* index.css hard-codes a white News box, which leaves light text on white in the dark theme */
+body.dark #news .news-scroller {
+    background-color: var(--secondary-color) !important;
+    border-color: rgba(255, 255, 255, 0.15);
+    border-left-color: var(--primary-color);
+}
+/* dark-theme links are white like the body text, so mark them with an underline */
+body.dark #news .news-item a {
+    text-decoration: underline;
+}
